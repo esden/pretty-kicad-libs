@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCP5911
+D Synchronous Buck MOSFET Driver
+K driver, mosfet, half-bridge, bridge
+$ENDCMP
+#
+#End Doc Library
