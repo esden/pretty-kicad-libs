@@ -1,8 +1,41 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP INDUCTOR
+D Inductor
+$ENDCMP
+#
+$CMP INDUCTOR_SMALL
+D Inductor
+$ENDCMP
+#
 $CMP Q_NMOS_SSSGD
 D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP R_Small
+D Resistor
+$ENDCMP
+#
+$CMP THERMISTOR
+D Thermistor
+$ENDCMP
+#
+$CMP THERMISTOR_Small
+D Thermistor
 $ENDCMP
 #
 #End Doc Library
