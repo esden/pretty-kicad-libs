@@ -8,11 +8,11 @@ $CMP C_Small
 D Unpolarized capacitor
 $ENDCMP
 #
-$CMP INDUCTOR
+$CMP L
 D Inductor
 $ENDCMP
 #
-$CMP INDUCTOR_SMALL
+$CMP L_Small
 D Inductor
 $ENDCMP
 #
@@ -30,11 +30,11 @@ $CMP R_Small
 D Resistor
 $ENDCMP
 #
-$CMP THERMISTOR
+$CMP TH
 D Thermistor
 $ENDCMP
 #
-$CMP THERMISTOR_Small
+$CMP TH_Small
 D Thermistor
 $ENDCMP
 #
