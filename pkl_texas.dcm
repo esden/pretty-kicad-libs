@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMS320F2802xPT
+D TI Piccolo Microcontroller
+K mcu, microcontroller, texas, ti, C2000
+$ENDCMP
+#
+#End Doc Library
