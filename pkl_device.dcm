@@ -16,8 +16,18 @@ $CMP L_Small
 D Inductor
 $ENDCMP
 #
-$CMP Q_NMOS_SSSGD
-D Transistor N-MOSFET (general)
+$CMP Q_NMOS_BD_NAMES
+D Transistor N-MOSFET with body diode (names not numbers) (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_BD_SGD
+D Transistor N-MOSFET with body diode (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_BD_SSSGD
+D Transistor N-MOSFET with body diode (general)
 K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
