@@ -12,8 +12,20 @@ $CMP L
 D Inductor
 $ENDCMP
 #
+$CMP LED
+K LED
+$ENDCMP
+#
 $CMP L_Small
 D Inductor
+$ENDCMP
+#
+$CMP Led2_Small
+D Led
+$ENDCMP
+#
+$CMP Led_Small
+D Led
 $ENDCMP
 #
 $CMP Q_NMOS_BD_NAMES
