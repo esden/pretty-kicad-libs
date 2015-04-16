@@ -10,4 +10,9 @@ D Synchronous Buck MOSFET Driver
 K driver, mosfet, half-bridge, bridge
 $ENDCMP
 #
+$CMP PAD_SMD
+D SMD solder pad
+K SMD pad single solder
+$ENDCMP
+#
 #End Doc Library
