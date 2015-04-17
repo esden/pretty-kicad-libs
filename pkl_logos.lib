@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 1BitSquared
+#
+DEF 1BitSquared LOGO 0 40 Y Y 1 F N
+F0 "LOGO" 200 25 60 V I C CNN
+F1 "1BitSquared" 0 -175 40 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -25 25 -125 125 0 1 0 N
+P 3 0 1 0  -125 25  -100 0  0 0 N
+P 3 0 1 0  -100 -100  -75 -125  125 -125 N
+P 4 0 1 0  -25 125  0 100  0 0  -25 25 N
+P 4 0 1 0  100 100  125 75  125 -125  100 -100 N
+P 7 0 1 0  25 100  100 100  100 -100  -100 -100  -100 -25  25 -25  25 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
