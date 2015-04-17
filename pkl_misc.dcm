@@ -5,6 +5,11 @@ D Half Bridge Driver
 K half bridge driver
 $ENDCMP
 #
+$CMP NC7NZ34
+D TinyLogic UHS Tripple Buffer
+K line driver buffer
+$ENDCMP
+#
 $CMP NCP5911
 D Synchronous Buck MOSFET Driver
 K driver, mosfet, half-bridge, bridge
