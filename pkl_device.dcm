@@ -60,4 +60,9 @@ $CMP TH_Small
 D Thermistor
 $ENDCMP
 #
+$CMP XTAL_XGXG
+D Crystal Oscillator/Resonator with grounded case. Usually SMD with 4 pads.
+K Crystal Oscillator Resonator Quartz SMD
+$ENDCMP
+#
 #End Doc Library
