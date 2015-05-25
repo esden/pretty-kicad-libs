@@ -48,6 +48,11 @@ D Resistor
 K R DEV
 $ENDCMP
 #
+$CMP R4_Small
+D Resistor Array x4
+K Resistor Array x4
+$ENDCMP
+#
 $CMP R_Small
 D Resistor
 $ENDCMP
