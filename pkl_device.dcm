@@ -9,11 +9,13 @@ D Unpolarized capacitor
 $ENDCMP
 #
 $CMP Diode
-K LED
+D Generic Diode
+K Diode
 $ENDCMP
 #
 $CMP Diode_Small
-D Led
+D Generic Diode
+K Diode
 $ENDCMP
 #
 $CMP L
@@ -21,6 +23,7 @@ D Inductor
 $ENDCMP
 #
 $CMP LED
+D Light Emitting Diode
 K LED
 $ENDCMP
 #

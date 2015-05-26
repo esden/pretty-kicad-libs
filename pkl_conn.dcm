@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP USB_OTG
+D USB OTG micro/mini connector
+K USB USB_OTG USB_mini USB_micro
+$ENDCMP
+#
 #End Doc Library
