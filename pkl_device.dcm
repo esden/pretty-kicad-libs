@@ -8,6 +8,14 @@ $CMP C_Small
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP Diode
+K LED
+$ENDCMP
+#
+$CMP Diode_Small
+D Led
+$ENDCMP
+#
 $CMP L
 D Inductor
 $ENDCMP
