@@ -1,4 +1,4 @@
-(module D_0603 (layer F.Cu) (tedit 55689AD5)
+(module D_0603 (layer F.Cu) (tedit 5568E1FC)
   (descr "Diode SMD 0603, reflow soldering")
   (tags "diode led 0603")
   (solder_mask_margin 0.075)
@@ -19,8 +19,8 @@
   (fp_line (start 1.175 -0.725) (end 1.175 0.725) (layer F.CrtYd) (width 0.05))
   (fp_line (start -0.35 -0.61) (end 0.35 -0.61) (layer F.SilkS) (width 0.13))
   (fp_line (start 0.35 0.61) (end -0.35 0.61) (layer F.SilkS) (width 0.13))
-  (pad 1 smd rect (at -0.75 0) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.75 0) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask))
+  (pad A smd rect (at -0.75 0) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask))
+  (pad C smd rect (at 0.75 0) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask))
   (model Capacitors_SMD.3dshapes/C_0603.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

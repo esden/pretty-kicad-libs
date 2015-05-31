@@ -1,4 +1,4 @@
-(module D_0402 (layer F.Cu) (tedit 552C7FC7)
+(module D_0402 (layer F.Cu) (tedit 5568E1EB)
   (descr "Diode SMD 0402, reflow soldering")
   (tags "diode led 0402")
   (solder_mask_margin 0.075)
@@ -19,8 +19,8 @@
   (fp_line (start 0.95 -0.5) (end 0.95 0.5) (layer F.CrtYd) (width 0.05))
   (fp_line (start -0.35 -0.44) (end 0.35 -0.44) (layer F.SilkS) (width 0.13))
   (fp_line (start 0.35 0.44) (end -0.35 0.44) (layer F.SilkS) (width 0.13))
-  (pad 1 smd rect (at -0.5 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.5 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask))
+  (pad A smd rect (at -0.5 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask))
+  (pad C smd rect (at 0.5 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask))
   (model SMD_Packages.3dshapes/SMD-0402.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
