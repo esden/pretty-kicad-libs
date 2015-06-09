@@ -20,4 +20,9 @@ D SMD solder pad
 K SMD pad single solder
 $ENDCMP
 #
+$CMP pkl_BBB
+D Beagle Bone Black shield connections
+K BBB
+$ENDCMP
+#
 #End Doc Library
