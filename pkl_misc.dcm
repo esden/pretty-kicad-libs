@@ -25,4 +25,9 @@ D Beagle Bone Black shield connections
 K BBB
 $ENDCMP
 #
+$CMP pkl_BBB_verbose
+D Beagle Bone Black shield connections
+K BBB
+$ENDCMP
+#
 #End Doc Library
