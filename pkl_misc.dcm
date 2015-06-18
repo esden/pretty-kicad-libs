@@ -20,6 +20,11 @@ D SMD solder pad
 K SMD pad single solder
 $ENDCMP
 #
+$CMP PCA9306
+D I2C level shifter
+K i2c level shifter
+$ENDCMP
+#
 $CMP pkl_BBB
 D Beagle Bone Black shield connections
 K BBB
