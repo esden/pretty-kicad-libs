@@ -5,6 +5,11 @@ D Half Bridge Driver
 K half bridge driver
 $ENDCMP
 #
+$CMP MCP2551
+D CAN Transceiver
+K CAN Control Area Network Transceiver Differential
+$ENDCMP
+#
 $CMP NC7NZ34
 D TinyLogic UHS Tripple Buffer
 K line driver buffer
