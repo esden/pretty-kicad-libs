@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC2G82
+D Dual 2-input EXCLUSIVE-OR gate
+K dual xor gate exclusive or
+$ENDCMP
+#
 $CMP HIP2103
 D Half Bridge Driver
 K half bridge driver
