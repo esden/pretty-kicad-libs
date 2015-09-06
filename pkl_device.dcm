@@ -76,6 +76,10 @@ $CMP pkl_TH_Small
 D Thermistor
 $ENDCMP
 #
+$CMP pkl_VREG_DUAL_AP7332_SOT23-6
+D AP7332-dual-vreg-sot23-6
+$ENDCMP
+#
 $CMP pkl_XTAL_XGXG
 D Crystal Oscillator/Resonator with grounded case. Usually SMD with 4 pads.
 K Crystal Oscillator Resonator Quartz SMD
