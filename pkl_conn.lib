@@ -120,4 +120,25 @@ X shield GND 400 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# pkl_coax_conn
+#
+DEF pkl_coax_conn P 0 40 Y N 1 F N
+F0 "P" 10 120 50 H V C CNN
+F1 "pkl_coax_conn" 110 -60 50 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ BNC_*
+ bnc
+ bnc-*
+ SMA*
+$ENDFPLIST
+DRAW
+C 0 0 20 0 1 8 N
+C 0 0 70 0 1 12 N
+X In 1 -150 0 130 R 40 40 1 1 P
+X Ext 2 0 -200 130 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

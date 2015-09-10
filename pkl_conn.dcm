@@ -5,4 +5,8 @@ D USB OTG micro/mini connector
 K USB USB_OTG USB_mini USB_micro
 $ENDCMP
 #
+$CMP pkl_coax_conn
+D Generic coaxial connector
+$ENDCMP
+#
 #End Doc Library
