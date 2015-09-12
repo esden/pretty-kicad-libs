@@ -15,6 +15,11 @@ D Half Bridge Driver
 K half bridge driver
 $ENDCMP
 #
+$CMP KSZ8091RNA
+D Ethernet 10Base-T/100Base-T RMII Physical Layer Transceiver
+K Ethernet RMII PHY
+$ENDCMP
+#
 $CMP MCP2551
 D CAN Transceiver
 K CAN Control Area Network Transceiver Differential
