@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP pkl_RJ45-TRANSFO
+D RJ45 with transformer + leds WURTH
+K RJ45
+$ENDCMP
+#
 $CMP pkl_USB_OTG
 D USB OTG micro/mini connector
 K USB USB_OTG USB_mini USB_micro
