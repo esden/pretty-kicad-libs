@@ -5,6 +5,12 @@ D RJ45 with transformer + leds WURTH
 K RJ45
 $ENDCMP
 #
+$CMP pkl_SD_Card
+D SD Card Reader
+K CONN SD
+F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
+$ENDCMP
+#
 $CMP pkl_USB_OTG
 D USB OTG micro/mini connector
 K USB USB_OTG USB_mini USB_micro
