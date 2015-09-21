@@ -10,6 +10,12 @@ D Dual 2-input EXCLUSIVE-OR gate
 K dual xor gate exclusive or
 $ENDCMP
 #
+$CMP C8051F330
+D 8051 Mixed-Signal ISP Flash MCU
+K 8051 
+F https://www.silabs.com/Support%20Documents/TechnicalDocs/C8051F33x.pdf
+$ENDCMP
+#
 $CMP HIP2103
 D Half Bridge Driver
 K half bridge driver
