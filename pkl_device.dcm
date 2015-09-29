@@ -4,6 +4,14 @@ $CMP pkl_C
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP pkl_CP
+D Polarised capacitor
+$ENDCMP
+#
+$CMP pkl_CP_Small
+D Polarised capacitor
+$ENDCMP
+#
 $CMP pkl_C_Small
 D Unpolarized capacitor
 $ENDCMP
