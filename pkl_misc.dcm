@@ -51,6 +51,11 @@ D I2C level shifter
 K i2c level shifter
 $ENDCMP
 #
+$CMP UBLOX-MAX-7Q
+D GNSS module
+K GPS, GNSS, Module, GLONASS, QZSS, SBAS
+$ENDCMP
+#
 $CMP pkl_BBB
 D Beagle Bone Black shield connections
 K BBB
