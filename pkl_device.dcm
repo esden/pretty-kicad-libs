@@ -47,6 +47,11 @@ $CMP pkl_Led_Small
 D Led
 $ENDCMP
 #
+$CMP pkl_Q_NMOS_BD_GSD
+D Transistor N-MOSFET with body diode (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP pkl_Q_NMOS_BD_NAMES
 D Transistor N-MOSFET with body diode (names not numbers) (general)
 K nmos n-mos n-mosfet transistor
@@ -58,6 +63,11 @@ K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
 $CMP pkl_Q_NMOS_BD_SSSGD
+D Transistor N-MOSFET with body diode (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP pkl_Q_PMOS_BD_GSD
 D Transistor N-MOSFET with body diode (general)
 K nmos n-mos n-mosfet transistor
 $ENDCMP
