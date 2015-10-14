@@ -1,4 +1,4 @@
-(module Tact_Switch_Side_GND_Boss_B3U-3100P-B (layer F.Cu) (tedit 55678A68)
+(module Tact_Switch_Side_GND_Boss_B3U-3100P-B (layer F.Cu) (tedit 561ED26B)
   (fp_text reference REF** (at 0 3.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -26,5 +26,5 @@
   (pad 1 smd rect (at -1.7 0) (size 0.8 1.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.7 0) (size 0.8 1.7) (layers F.Cu F.Paste F.Mask))
   (pad GND smd rect (at 0 1.65) (size 0.8 1.1) (layers F.Cu F.Paste F.Mask))
-  (pad "" np_thru_hole circle (at 0 0) (size 0.75 0.75) (drill 0.75) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 0) (size 0.75 0.75) (drill 0.75) (layers *.Cu))
 )
