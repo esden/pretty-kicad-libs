@@ -21,6 +21,11 @@ D Half Bridge Driver
 K half bridge driver
 $ENDCMP
 #
+$CMP HM-TRP
+D Sub GHz RF Si1000 based transceiver module.
+K RF, Transceiver, Module
+$ENDCMP
+#
 $CMP KSZ8091RNA
 D Ethernet 10Base-T/100Base-T RMII Physical Layer Transceiver
 K Ethernet RMII PHY
