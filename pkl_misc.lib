@@ -207,7 +207,7 @@ ENDDEF
 DEF LXDC55F U 0 40 Y Y 1 F N
 F0 "U" 0 250 60 H V C CNN
 F1 "LXDC55F" 0 -350 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
+F2 "pkl_murata:LXDC55F" 0 450 60 H I C CNN
 F3 "http://search.murata.co.jp/Ceramy/image/img/A14X/55F_E.pdf" 0 350 60 H I C CNN
 F4 "ANY" 0 0 60 H I C CNN "Source"
 DRAW
