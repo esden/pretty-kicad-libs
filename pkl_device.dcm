@@ -103,4 +103,9 @@ D Crystal Oscillator/Resonator with grounded case. Usually SMD with 4 pads.
 K Crystal Oscillator Resonator Quartz SMD
 $ENDCMP
 #
+$CMP pkl_XTAL_XX
+D Crystal Oscillator/Resonator with grounded case. Usually SMD with 4 pads.
+K Crystal Oscillator Resonator Quartz SMD
+$ENDCMP
+#
 #End Doc Library
