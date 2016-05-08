@@ -47,6 +47,11 @@ $CMP pkl_Led_Small
 D Led
 $ENDCMP
 #
+$CMP pkl_Q_2NMOS_BD_SGDSGD
+D Dual Transistor N-MOSFET with body diode (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP pkl_Q_2PMOS_BD_SGDSGD
 D Dual Transistor P-MOSFET with body diode (general)
 K nmos n-mos n-mosfet transistor
