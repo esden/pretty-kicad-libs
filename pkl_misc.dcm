@@ -61,6 +61,11 @@ D I2C level shifter
 K i2c level shifter
 $ENDCMP
 #
+$CMP POGO_PAD_SMD
+D SMD solder pad
+K SMD pad single solder
+$ENDCMP
+#
 $CMP UBLOX-MAX-7Q
 D GNSS module
 K GPS, GNSS, Module, GLONASS, QZSS, SBAS
