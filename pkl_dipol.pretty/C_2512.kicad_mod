@@ -1,7 +1,6 @@
 (module C_2512 (layer F.Cu) (tedit 552CB0C3)
   (descr "Capacitor SMD 2512, reflow soldering")
   (tags "capacitor 2512")
-  (solder_mask_margin 0.075)
   (attr smd)
   (fp_text reference REF** (at 0 -2.4) (layer F.Fab)
     (effects (font (size 0.635 0.635) (thickness 0.1)))

@@ -1,7 +1,6 @@
 (module C_0603 (layer F.Cu) (tedit 552C8666)
   (descr "Capacitor SMD 0603, reflow soldering")
   (tags "capacitor 0603")
-  (solder_mask_margin 0.075)
   (attr smd)
   (fp_text reference REF** (at 0 -1.1) (layer F.Fab)
     (effects (font (size 0.635 0.635) (thickness 0.1)))
