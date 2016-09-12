@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX7301AAI
+D 4-Wire-Interfaced, 2.5V to 5.5V, 20-Port I/O Expander
+F http://datasheets.maximintegrated.com/en/ds/MAX7301.pdf
+$ENDCMP
+#
+$CMP MAX7301AAX
+D 4-Wire-Interfaced, 2.5V to 5.5V, 28-Port I/O Expander
+F http://datasheets.maximintegrated.com/en/ds/MAX7301.pdf
+$ENDCMP
+#
+#End Doc Library
