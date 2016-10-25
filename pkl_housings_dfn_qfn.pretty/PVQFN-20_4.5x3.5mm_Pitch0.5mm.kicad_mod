@@ -1,4 +1,4 @@
-(module PVQFN-20_4.5x3.5mm_Pitch0.5mm (layer F.Cu) (tedit 57085B31)
+(module PVQFN-20_4.5x3.5mm_Pitch0.5mm (layer F.Cu) (tedit 580E9F1C)
   (solder_mask_margin 0.07)
   (solder_paste_margin -0.025)
   (fp_text reference REF** (at 0 -3.25) (layer F.SilkS)
@@ -89,7 +89,6 @@
   (fp_line (start -1.625 -1.75) (end -1.625 -1.475) (layer F.Fab) (width 0.025))
   (fp_line (start -1.875 -1.75) (end -1.875 -1.475) (layer F.Fab) (width 0.025))
   (pad 19 smd oval (at -1.75 -1.725) (size 0.28 0.85) (layers F.Cu F.Paste F.Mask))
-  (pad 20 smd oval (at -2.225 -0.75 90) (size 0.28 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 18 smd oval (at -1.25 -1.725) (size 0.28 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 17 smd oval (at -0.75 -1.725) (size 0.28 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 16 smd oval (at -0.25 -1.725) (size 0.28 0.85) (layers F.Cu F.Paste F.Mask))
