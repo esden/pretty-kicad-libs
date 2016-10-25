@@ -1,4 +1,4 @@
-(module R_Array_Concave_4x0603 (layer F.Cu) (tedit 5753DCD2)
+(module R_Array_Concave_4x0603 (layer F.Cu) (tedit 580FDB0A)
   (descr "Thick Film Chip Resistor Array, Wave soldering, Vishay CRA06P (see cra06p.pdf)")
   (tags "resistor array")
   (attr smd)
@@ -41,6 +41,6 @@
   (model Resistors_SMD.3dshapes/R_Array_Concave_4x0603.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )
