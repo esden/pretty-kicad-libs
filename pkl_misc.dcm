@@ -31,6 +31,10 @@ D Ethernet 10Base-T/100Base-T RMII Physical Layer Transceiver
 K Ethernet RMII PHY
 $ENDCMP
 #
+$CMP LCD_50pin
+D 50pin LCD Interface
+$ENDCMP
+#
 $CMP LXDC55F
 D Murata micro DCDC converter
 K Module, DCDC, converter, switching
