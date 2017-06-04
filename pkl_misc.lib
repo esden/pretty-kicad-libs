@@ -1027,4 +1027,19 @@ X ~ 2 200 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# pkl_jumper
+#
+DEF pkl_jumper J 0 40 Y Y 1 F N
+F0 "J" 100 -100 60 H V C CNN
+F1 "pkl_jumper" 0 150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -50 30 -10 -30 0 1 0 N
+S 10 30 50 -30 0 1 0 N
+X ~ 1 -100 0 50 R 50 50 1 1 P
+X ~ 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
