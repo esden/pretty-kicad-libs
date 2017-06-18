@@ -1,4 +1,5 @@
 (module Tact_Switch_Side_Boss_B3U-3000P-B (layer F.Cu) (tedit 5753D792)
+  (solder_paste_ratio -0.1)
   (fp_text reference REF** (at -3.5 0 270) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
