@@ -70,6 +70,10 @@ D SMD solder pad
 K SMD pad single solder
 $ENDCMP
 #
+$CMP TPA6135A2
+D Stereo Headphone Amplifier With Differential Input and HI-Z Mode
+$ENDCMP
+#
 $CMP UBLOX-MAX-7Q
 D GNSS module
 K GPS, GNSS, Module, GLONASS, QZSS, SBAS
