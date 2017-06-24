@@ -49,6 +49,10 @@ D CAN Transceiver
 K CAN Control Area Network Transceiver Differential
 $ENDCMP
 #
+$CMP MCP4661-ML
+D 8Bit Dual I2C Digital Potentiometer in QFN16 Package
+$ENDCMP
+#
 $CMP NC7NZ34
 D TinyLogic UHS Tripple Buffer
 K line driver buffer
