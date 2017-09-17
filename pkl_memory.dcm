@@ -8,4 +8,10 @@ $CMP IS61LV256AL-10TLI-PHY
 D 32K x 8 LOW VOLTAGE CMOS STATIC RAM - TSOP PACKAGE - AS PHYSICAL PIN ORDER
 $ENDCMP
 #
+$CMP pkl_24LC00
+D I2C Serial EEPROM, 128b
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21178H.pdf
+$ENDCMP
+#
 #End Doc Library
