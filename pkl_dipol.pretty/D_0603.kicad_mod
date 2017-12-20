@@ -20,7 +20,7 @@
   (fp_line (start -0.35 -0.61) (end 0.35 -0.61) (layer F.SilkS) (width 0.13))
   (pad A smd rect (at 0.75 0 180) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask))
   (pad C smd rect (at -0.75 0 180) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask))
-  (model Capacitors_SMD.3dshapes/C_0603.wrl
+  (model LEDs.3dshapes/LED_0603.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
