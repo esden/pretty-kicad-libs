@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Oscillator
+D Oscillator with enable pin.
+$ENDCMP
+#
 $CMP pkl_C
 D Unpolarized capacitor
 $ENDCMP
