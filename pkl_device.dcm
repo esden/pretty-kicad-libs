@@ -39,6 +39,11 @@ D Light Emitting Diode
 K LED
 $ENDCMP
 #
+$CMP pkl_LED_ARGB
+D LED RGB, common anode (pin 1)
+K led rgb diode
+$ENDCMP
+#
 $CMP pkl_L_Small
 D Inductor
 $ENDCMP
