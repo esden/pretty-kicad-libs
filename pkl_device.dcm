@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP NC7SZ14
+D inverting buffer with Schmitt trigger.
+F 74xx/74ahc_ahct1g14.pdf
+$ENDCMP
+#
 $CMP Oscillator
 D Oscillator with enable pin.
 $ENDCMP
