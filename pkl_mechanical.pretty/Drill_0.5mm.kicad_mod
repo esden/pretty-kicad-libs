@@ -1,0 +1,10 @@
+(module Drill_0.5mm (layer F.Cu) (tedit 5A812513)
+  (descr "0.5mm drill hole for mouse bites")
+  (fp_text reference REF** (at 0 -2.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Drill_0.5mm (at 0 1.3) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+)
