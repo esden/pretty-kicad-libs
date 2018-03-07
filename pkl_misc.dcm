@@ -16,7 +16,7 @@ $ENDCMP
 #
 $CMP C8051F330
 D 8051 Mixed-Signal ISP Flash MCU
-K 8051 
+K 8051
 F https://www.silabs.com/Support%20Documents/TechnicalDocs/C8051F33x.pdf
 $ENDCMP
 #
