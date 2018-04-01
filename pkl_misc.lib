@@ -617,7 +617,7 @@ ENDDEF
 DEF Microphone_SPV1840LR5H-B U 0 40 Y Y 1 F N
 F0 "U" 100 250 60 H V C CNN
 F1 "Microphone_SPV1840LR5H-B" 50 -250 60 H V L CNN
-F2 "" 0 0 60 H I C CNN
+F2 "pkl_misc:SPV1840LR5H-B" 0 -750 60 H I C CNN
 F3 "http://www.knowles.com/eng/content/download/3918/49669/version/8/file/SPV1840LR5H-B+Rev+B+Datasheet.pdf" 0 -550 60 H I C CNN
 F4 "ANY" 0 -650 60 H I C CNN "Source"
 DRAW
