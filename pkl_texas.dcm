@@ -5,6 +5,11 @@ D CC2650 SimpleLink transceiver
 K 2.4ghz transceiver SimpleLink ARM
 $ENDCMP
 #
+$CMP TFP410
+D Digital Visual Interface (DVI) Compliant PanelBus Digital Transmitter
+K DVI
+$ENDCMP
+#
 $CMP TMS320F2802xPT
 D TI Piccolo Microcontroller
 K mcu, microcontroller, texas, ti, C2000
