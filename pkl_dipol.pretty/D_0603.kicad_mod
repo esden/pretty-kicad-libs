@@ -1,4 +1,4 @@
-(module D_0603 (layer F.Cu) (tedit 5568E1FC)
+(module D_0603 (layer F.Cu) (tedit 5B8B5D22)
   (descr "Diode SMD 0603, reflow soldering")
   (tags "diode led 0603")
   (attr smd)
@@ -18,9 +18,9 @@
   (fp_line (start -1.175 0.725) (end -1.175 -0.725) (layer F.CrtYd) (width 0.05))
   (fp_line (start 0.35 0.61) (end -0.35 0.61) (layer F.SilkS) (width 0.13))
   (fp_line (start -0.35 -0.61) (end 0.35 -0.61) (layer F.SilkS) (width 0.13))
-  (pad A smd rect (at 0.75 0 180) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask))
-  (pad C smd rect (at -0.75 0 180) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask))
-  (model LEDs.3dshapes/LED_0603.wrl
+  (pad A smd roundrect (at 0.75 0 180) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (pad C smd roundrect (at -0.75 0 180) (size 0.6 0.9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0603_1608Metric.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
