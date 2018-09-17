@@ -5,6 +5,11 @@ D CC2650 SimpleLink transceiver
 K 2.4ghz transceiver SimpleLink ARM
 $ENDCMP
 #
+$CMP HD3SS3202
+D Two-Channel Differential 2:1/1:2 USB3.1 Mux/Demux
+K Mux, Bus, USB
+$ENDCMP
+#
 $CMP TFP410
 D Digital Visual Interface (DVI) Compliant PanelBus Digital Transmitter
 K DVI
