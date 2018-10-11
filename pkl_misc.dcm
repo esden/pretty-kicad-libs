@@ -39,6 +39,10 @@ $CMP LCD_50pin
 D 50pin LCD Interface
 $ENDCMP
 #
+$CMP LTD-6910HR
+D Displays Panel 2DIGIT 16LED 7SEGMENT
+$ENDCMP
+#
 $CMP LXDC55F
 D Murata micro DCDC converter
 K Module, DCDC, converter, switching
@@ -61,6 +65,10 @@ $ENDCMP
 $CMP NCP5911
 D Synchronous Buck MOSFET Driver
 K driver, mosfet, half-bridge, bridge
+$ENDCMP
+#
+$CMP NL27WZ14
+D Dual Schmitt-Trigger Inverter
 $ENDCMP
 #
 $CMP PAD_SMD
