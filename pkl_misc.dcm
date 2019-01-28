@@ -5,6 +5,10 @@ D Single Buffer Gate With 3-State Output
 K buffer, gate, 3-state
 $ENDCMP
 #
+$CMP 74HC165
+D 8Bit Parallel Out Serial Shift Register
+$ENDCMP
+#
 $CMP 74LVC2G82
 D Dual 2-input EXCLUSIVE-OR gate
 K dual xor gate exclusive or
