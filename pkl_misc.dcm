@@ -9,6 +9,14 @@ $CMP 74HC165
 D 8Bit Parallel Out Serial Shift Register
 $ENDCMP
 #
+$CMP 74HC573
+D Octal D-Type Latch with 3-State Outputs
+$ENDCMP
+#
+$CMP 74HC595
+D 8-bit serial-in/serial-out or parallel-out shift register with output latches
+$ENDCMP
+#
 $CMP 74LVC2G82
 D Dual 2-input EXCLUSIVE-OR gate
 K dual xor gate exclusive or
