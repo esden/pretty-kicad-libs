@@ -9,6 +9,10 @@ $CMP 74HC165
 D 8Bit Parallel Out Serial Shift Register
 $ENDCMP
 #
+$CMP 74HC4024
+D 7-stage binary ripple counter
+$ENDCMP
+#
 $CMP 74HC573
 D Octal D-Type Latch with 3-State Outputs
 $ENDCMP
