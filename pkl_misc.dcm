@@ -102,6 +102,10 @@ D SMD solder pad
 K SMD pad single solder
 $ENDCMP
 #
+$CMP SN450561N
+D Displays Panel 2DIGIT 16LED 7SEGMENT
+$ENDCMP
+#
 $CMP TPA6135A2
 D Stereo Headphone Amplifier With Differential Input and HI-Z Mode
 $ENDCMP
