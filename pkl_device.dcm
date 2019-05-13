@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED_BGR
+D RGB LED, 6 pin package
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP NC7SZ14
 D inverting buffer with Schmitt trigger.
 F 74xx/74ahc_ahct1g14.pdf
