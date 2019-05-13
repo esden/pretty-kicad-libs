@@ -1,5 +1,5 @@
-(module D_SOD-523 (layer F.Cu) (tedit 5CD9B9D2)
-  (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
+(module D_SOD-523 (layer F.Cu) (tedit 5CD9BDA6)
+  (descr https://www.nxp.com/docs/en/package-information/SOD523.pdf)
   (tags "Diode SOD523")
   (attr smd)
   (fp_text reference REF** (at 0 -1.3) (layer F.Fab)
