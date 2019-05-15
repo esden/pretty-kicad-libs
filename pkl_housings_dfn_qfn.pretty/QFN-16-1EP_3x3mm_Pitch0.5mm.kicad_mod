@@ -1,4 +1,4 @@
-(module QFN-16-1EP_3x3mm_Pitch0.5mm (layer F.Cu) (tedit 5955DB5A)
+(module QFN-16-1EP_3x3mm_Pitch0.5mm (layer F.Cu) (tedit 5CDB68AE)
   (descr "16-Lead Plastic Quad Flat, No Lead Package (NG) - 3x3x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFN 0.5")
   (attr smd)
@@ -58,7 +58,7 @@
     (zone_connect 2))
   (pad 17 thru_hole circle (at -0.5 0.5) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
     (zone_connect 2))
-  (model Housings_DFN_QFN.3dshapes/QFN-16-1EP_3x3mm_Pitch0.5mm.wrl
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

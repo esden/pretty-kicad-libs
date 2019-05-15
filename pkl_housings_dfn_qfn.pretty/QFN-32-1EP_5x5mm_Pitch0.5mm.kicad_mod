@@ -1,4 +1,4 @@
-(module QFN-32-1EP_5x5mm_Pitch0.5mm (layer F.Cu) (tedit 5CDB614D)
+(module QFN-32-1EP_5x5mm_Pitch0.5mm (layer F.Cu) (tedit 5CDB6830)
   (descr "UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)")
   (tags "QFN 0.5")
   (attr smd)
@@ -66,7 +66,7 @@
   (pad 33 thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.3) (layers *.Cu F.Mask))
   (pad 33 smd roundrect (at 0 0) (size 3.45 3.45) (layers F.Cu F.Mask) (roundrect_rratio 0.07200000000000001)
     (solder_paste_margin_ratio -0.2))
-  (model Housings_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_Pitch0.5mm.wrl
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
