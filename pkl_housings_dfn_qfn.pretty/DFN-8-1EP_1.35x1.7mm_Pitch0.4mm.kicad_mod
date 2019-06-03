@@ -1,4 +1,4 @@
-(module DFN-8-1EP_1.35x1.7mm_Pitch0.4mm (layer F.Cu) (tedit 5CF4528F)
+(module DFN-8-1EP_1.35x1.7mm_Pitch0.4mm (layer F.Cu) (tedit 5CF4610D)
   (descr "DC8 Package 8-Lead Plastic DFN (1.35mm x 1.7mm)")
   (tags "DFN 0.45")
   (attr smd)
@@ -31,9 +31,9 @@
     (solder_paste_margin_ratio -0.2))
   (pad "" smd roundrect (at 0 0) (size 0.3 0.5) (layers F.Paste) (roundrect_rratio 0.083)
     (solder_paste_margin_ratio -0.2))
-  (model Housings_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_Pitch0.45mm.wrl
+  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8-1EP_2x2mm_P0.45mm_EP0.64x1.38mm.step
     (at (xyz 0 0 0))
-    (scale (xyz 0.74 0.9 1))
+    (scale (xyz 0.74 0.9 0.5))
     (rotate (xyz 0 0 0))
   )
 )
