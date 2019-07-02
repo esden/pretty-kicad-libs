@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SII164
+D Digital Visual Interface (DVI) Compliant PanelBus Digital Transmitter
+K DVI
+$ENDCMP
+#
 #End Doc Library
