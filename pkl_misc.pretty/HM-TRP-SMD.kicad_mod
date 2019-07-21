@@ -1,5 +1,6 @@
-(module HM-TRP-SMD (layer F.Cu) (tedit 562057D9)
+(module HM-TRP-SMD (layer F.Cu) (tedit 5D33AE6E)
   (descr "sub GHz transceiver module")
+  (attr smd)
   (fp_text reference REF** (at 0 1) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -1,4 +1,4 @@
-(module USB_Micro-B_A01SB141B1-067 (layer F.Cu) (tedit 5CDDE6D9)
+(module USB_Micro-B_A01SB141B1-067 (layer F.Cu) (tedit 5D33AE1F)
   (descr https://datasheet.lcsc.com/szlcsc/Jing-Extension-of-the-Electronic-Co-LCSC-MICRO-USB-5S-B-Type-horns-High-temperature_C10418.pdf)
   (tags "Micro-USB SMD Typ-B")
   (attr smd)

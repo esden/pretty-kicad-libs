@@ -1,4 +1,5 @@
-(module BLE121LR (layer F.Cu) (tedit 56C7C93C)
+(module BLE121LR (layer F.Cu) (tedit 5D33AE5D)
+  (attr smd)
   (fp_text reference REF** (at 0 0.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

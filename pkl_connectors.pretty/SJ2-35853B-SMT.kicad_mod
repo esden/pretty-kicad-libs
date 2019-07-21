@@ -1,5 +1,6 @@
-(module SJ2-35853B-SMT (layer F.Cu) (tedit 594F5450)
+(module SJ2-35853B-SMT (layer F.Cu) (tedit 5D33ADA2)
   (descr "3 conductor 1 switch stereo 3.5mm smd audio jack with narrow footprint, guide pin and board edge recess")
+  (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

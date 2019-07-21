@@ -1,4 +1,5 @@
-(module SMD_Pad_Array-9_Pitch1mm (layer F.Cu) (tedit 5AB2DFDF)
+(module SMD_Pad_Array-9_Pitch1mm (layer F.Cu) (tedit 5D33ADF2)
+  (attr virtual)
   (fp_text reference REF** (at 0 2) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

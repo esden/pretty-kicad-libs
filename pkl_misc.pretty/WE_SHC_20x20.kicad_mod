@@ -1,6 +1,7 @@
-(module WE_SHC_20x20 (layer F.Cu) (tedit 5616E3AA)
+(module WE_SHC_20x20 (layer F.Cu) (tedit 5D33AEBB)
   (descr "RF Shlield 20mm x 20mm x 3mm")
   (tags "RF, Shield, Box")
+  (attr smd)
   (fp_text reference REF** (at 0 12) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

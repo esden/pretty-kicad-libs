@@ -1,5 +1,6 @@
-(module SCHA4B0419 (layer F.Cu) (tedit 5953389A)
+(module SCHA4B0419 (layer F.Cu) (tedit 5D33AE8E)
   (descr "ALPS push-push microSD card holder SMD")
+  (attr smd)
   (fp_text reference REF** (at 0 9.75) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )

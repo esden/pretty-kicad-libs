@@ -1,5 +1,6 @@
-(module PRQC (layer F.Cu) (tedit 5CF75212)
+(module PRQC (layer F.Cu) (tedit 5D33AE86)
   (descr "AVX/Kyocera Ceramic Band Resonator")
+  (attr smd)
   (fp_text reference REF** (at 0 -2) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
