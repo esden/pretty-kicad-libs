@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Switchcraft_35RAPC4BHN3
+D 3-pin audio jack receptable (stereo/TRS connector) with 2 switching contacts
+K audio jack receptable stereo headphones phones TRS connector
+F ~
+$ENDCMP
+#
 $CMP pkl_JACK_3C1S
 D 3 Conductor 1 Switch Stereo audio Jack
 K stereo audio jack
