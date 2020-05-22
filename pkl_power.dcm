@@ -1,6 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP +3V3A
+D Power symbol creates a global label with name "+3V3A"
 K POWER, PWR
 $ENDCMP
 #
