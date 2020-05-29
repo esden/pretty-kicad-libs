@@ -55,6 +55,12 @@ D LED RGB, common anode (pin 1)
 K led rgb diode
 $ENDCMP
 #
+$CMP pkl_LED_RBAG
+D RGB LED, red/blue/anode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP pkl_L_Small
 D Inductor
 $ENDCMP
