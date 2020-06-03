@@ -1,4 +1,5 @@
-(module POGO_PAD_SMD_R_1x1 (layer F.Cu) (tedit 577DCC93)
+(module POGO_PAD_SMD_R_1x1 (layer F.Cu) (tedit 5ED70002)
+  (attr virtual)
   (fp_text reference REF** (at 0 2.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
