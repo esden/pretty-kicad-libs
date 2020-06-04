@@ -1,5 +1,6 @@
-(module Drill_0.5mm (layer F.Cu) (tedit 5A812513)
+(module Drill_0.5mm (layer F.Cu) (tedit 5ED97441)
   (descr "0.5mm drill hole for mouse bites")
+  (attr virtual)
   (fp_text reference REF** (at 0 -2.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
