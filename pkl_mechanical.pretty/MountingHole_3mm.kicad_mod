@@ -1,6 +1,7 @@
-(module MountingHole_3mm (layer F.Cu) (tedit 0)
+(module MountingHole_3mm (layer F.Cu) (tedit 5ED97445)
   (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
   (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+  (attr virtual)
   (fp_text reference REF** (at 0 -4.0005) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
