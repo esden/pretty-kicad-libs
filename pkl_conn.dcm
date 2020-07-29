@@ -6,6 +6,11 @@ K audio jack receptable stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
+$CMP USB_AC_Combo_Receptacle_USB2.0
+D USB 2.0-only Type-C and Type-A Combo Receptacle connector
+K usb universal serial bus type-C and type-A USB2.0
+$ENDCMP
+#
 $CMP pkl_JACK_3C1S
 D 3 Conductor 1 Switch Stereo audio Jack
 K stereo audio jack
