@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP iCEBreaker_Bitsy
+D iCEBreaker Bitsy FPGA Development Board
+K iCEBreaker Bitsy FPGA development board module 1BitSquared
+$ENDCMP
+#
+#End Doc Library
