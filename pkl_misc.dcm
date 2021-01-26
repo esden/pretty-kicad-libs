@@ -119,6 +119,11 @@ D GNSS module
 K GPS, GNSS, Module, GLONASS, QZSS, SBAS
 $ENDCMP
 #
+$CMP USB332X
+D Hi-Speed USB ULPI Transceiver, WLCSP-25
+K USB ULPI Transceiver
+$ENDCMP
+#
 $CMP pkl_BBB
 D Beagle Bone Black shield connections
 K BBB
