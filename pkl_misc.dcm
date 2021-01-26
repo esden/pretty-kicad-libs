@@ -119,8 +119,28 @@ D GNSS module
 K GPS, GNSS, Module, GLONASS, QZSS, SBAS
 $ENDCMP
 #
-$CMP USB332X
-D Hi-Speed USB ULPI Transceiver, WLCSP-25
+$CMP USB3321C
+D Hi-Speed USB ULPI Transceiver, WLCSP-25, 26MHz REFCLK
+K USB ULPI Transceiver
+$ENDCMP
+#
+$CMP USB3322C
+D Hi-Speed USB ULPI Transceiver, WLCSP-25, 12MHz REFCLK
+K USB ULPI Transceiver
+$ENDCMP
+#
+$CMP USB3326C
+D Hi-Speed USB ULPI Transceiver, WLCSP-25, 19.2MHz REFCLK
+K USB ULPI Transceiver
+$ENDCMP
+#
+$CMP USB3327C
+D Hi-Speed USB ULPI Transceiver, WLCSP-25, 27MHz REFCLK
+K USB ULPI Transceiver
+$ENDCMP
+#
+$CMP USB3329C
+D Hi-Speed USB ULPI Transceiver, WLCSP-25, 13MHz REFCLK
 K USB ULPI Transceiver
 $ENDCMP
 #
