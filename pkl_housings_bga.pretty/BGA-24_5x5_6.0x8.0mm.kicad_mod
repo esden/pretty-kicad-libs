@@ -53,4 +53,9 @@
   (pad C5 smd circle (at 2 0) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask))
   (pad D5 smd circle (at 2 1) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask))
   (pad E5 smd circle (at 2 2) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/../../lib/pkl/packages3d/pkl_housings_bga.3dshapes/FBGA-25_8.0x6.0mm_Layout5x5_P1.0mm.step
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
