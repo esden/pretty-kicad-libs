@@ -1,5 +1,5 @@
 (footprint "WLCSP-50_1.96x4.63mm_Layout5x10_P0.4mm" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 6089E60D)
+  (tedit 608BA7A6)
   (descr "Etron WLCSP-50, 5x10 raster, 1.96x4.63mm package, pitch 0.4mm")
   (tags "WLCSP BGA 50 0.4")
   (attr smd)
@@ -80,4 +80,14 @@
   (pad "K3" smd circle (at 0 2.15) (size 0.23 0.23) (property pad_prop_bga) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ca220bf7-1095-4ef6-82f8-acce6151e788))
   (pad "K4" smd circle (at 0.4 2.15) (size 0.23 0.23) (property pad_prop_bga) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 049df35d-c56d-4df5-9fbc-f3bcc80fc5a3))
   (pad "K5" smd circle (at 0.8 2.15) (size 0.23 0.23) (property pad_prop_bga) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d2625794-52d8-4b5c-aed3-8aaf83026c05))
+  (model "${KICAD6_3DMODEL_DIR}/Package_BGA.3dshapes/WLCSP-50_1.96x4.63mm_Layout5x10_P0.4mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_housings_bga.3dshapes/Etron_WLCSP-50_1.96x4.63mm_Layout5x10_P0.4mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

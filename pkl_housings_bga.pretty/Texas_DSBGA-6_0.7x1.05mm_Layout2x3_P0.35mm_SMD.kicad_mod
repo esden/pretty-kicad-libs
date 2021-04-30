@@ -1,5 +1,5 @@
 (footprint "Texas_DSBGA-6_0.7x1.05mm_Layout2x3_P0.35mm_SMD" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 608B2A6F)
+  (tedit 608BA787)
   (descr "Texas Instruments, DSBGA, 0.7x1.05mm, 6 bump 2x3 (perimeter) array, SMD pad definition (preferred) (https://www.ti.com/lit/ml/mxbg383/mxbg383.pdf)")
   (tags "Texas Instruments DSBGA BGA YKA R-XBGA-N6")
   (solder_mask_margin -0.0325)
@@ -33,4 +33,14 @@
   (pad "B2" smd circle (at 0.175 0) (size 0.265 0.265) (property pad_prop_bga) (layers "F.Cu" "F.Mask") (tstamp a6c3c507-0a93-4238-af34-68af19dc8ea2))
   (pad "C1" smd circle (at -0.175 0.35) (size 0.265 0.265) (property pad_prop_bga) (layers "F.Cu" "F.Mask") (tstamp 49a2091c-70fe-4fd9-87bc-f5934255388b))
   (pad "C2" smd circle (at 0.175 0.35) (size 0.265 0.265) (property pad_prop_bga) (layers "F.Cu" "F.Mask") (tstamp 81b6b19d-870a-4507-abb3-8fcaa7b96b6e))
+  (model "${KICAD6_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-6_0.7x1.05mm_Layout2x3_P0.35mm_SMD.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_housings_bga.3dshapes/Texas_DSBGA-6_0.7x1.05mm_Layout2x3_P0.35mm_SMD.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

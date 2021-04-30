@@ -1,5 +1,5 @@
 (footprint "Lattice_csfBGA-285_10x10mm_Layout18x18_Pitch0.5mm_Ball0.3mm_Pad0.34mm_NSMD" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 6089FC84)
+  (tedit 608BA774)
   (descr "Lattice csfBGA-285 package, 10x10mm, 0.5mm pitch, non-solder-mask-defined, ECP5")
   (tags "Lattice BGA NSMD ECP5")
   (attr smd)
@@ -313,4 +313,9 @@
   (pad "V15" smd circle (at 2.75 4.25) (size 0.34 0.34) (property pad_prop_bga) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 932663d2-3db2-4d16-89c1-d30afde22e94))
   (pad "V16" smd circle (at 3.25 4.25) (size 0.34 0.34) (property pad_prop_bga) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 39384b32-09f3-4c76-9f4a-4ba77fdc0781))
   (pad "V17" smd circle (at 3.75 4.25) (size 0.34 0.34) (property pad_prop_bga) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d232b587-0a05-41a0-ba86-c652cb076db0))
+  (model "${KICAD6_3DMODEL_DIR}/Package_BGA.3dshapes/Lattice_csfBGA-285_10x10mm_Layout18x18_Pitch0.5mm_Ball0.3mm_Pad0.34mm_NSMD.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

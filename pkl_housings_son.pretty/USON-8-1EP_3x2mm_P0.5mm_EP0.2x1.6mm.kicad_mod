@@ -1,5 +1,5 @@
-(footprint "USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 60552F52)
+(footprint "USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm" (version 20210424) (generator pcbnew) (layer "F.Cu")
+  (tedit 608BA813)
   (descr "USON-8 1EP 3x2mm Pitch0.5mm, https://www.gigadevice.com/datasheet/gd25q32e/")
   (tags "USON-8 1EP 3x2mm Pitch0.5mm")
   (attr smd)
@@ -34,4 +34,14 @@
   (pad "7" smd roundrect (at 1.225 -0.25) (size 0.35 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e60b0a46-2e1d-4a98-9c8a-82bf6f1b6367))
   (pad "8" smd roundrect (at 1.225 -0.75) (size 0.35 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 98b6a2ea-c431-4c73-8344-1ab3f95c3123))
   (pad "9" smd roundrect (at 0 0) (size 0.2 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6920a71a-0115-44b9-b0e3-d6745cbe3e7b))
+  (model "${KICAD6_3DMODEL_DIR}/Package_SON.3dshapes/USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_housings_son.3dshapes/USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
