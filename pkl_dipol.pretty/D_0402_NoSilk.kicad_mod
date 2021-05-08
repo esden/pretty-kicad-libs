@@ -1,5 +1,5 @@
-(footprint "D_0402_NoSilk" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 60834E91)
+(footprint "D_0402_NoSilk" (version 20210424) (generator pcbnew) (layer "F.Cu")
+  (tedit 60970CEE)
   (descr "Diode SMD 0402 (Metric 1005), reflow soldering")
   (tags "diode led 0402")
   (attr smd)
@@ -13,8 +13,8 @@
   )
   (fp_rect (start -0.9 -0.45) (end 0.9 0.45) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp a3f484ac-5dfc-4f27-877b-ce4c2e528691))
   (fp_rect (start -0.5 -0.25) (end 0.5 0.25) (layer "F.Fab") (width 0.1) (fill none) (tstamp d366dedf-6667-4694-a412-520da33e6766))
-  (pad "A" smd roundrect (at 0.5 0 180) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1f4a1f80-06bd-498b-8b07-d0cb2d9e6dcf))
-  (pad "C" smd roundrect (at -0.5 0 180) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0b2e27f4-0748-456e-96e7-3bcfc2b7ecdb))
+  (pad "A" smd roundrect (at 0.5 0) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1f4a1f80-06bd-498b-8b07-d0cb2d9e6dcf))
+  (pad "C" smd roundrect (at -0.5 0) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0b2e27f4-0748-456e-96e7-3bcfc2b7ecdb))
   (model "${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
