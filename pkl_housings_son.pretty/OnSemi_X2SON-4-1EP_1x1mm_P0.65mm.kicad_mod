@@ -1,5 +1,5 @@
 (footprint "OnSemi_X2SON-4-1EP_1x1mm_P0.65mm" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60949402)
+  (tedit 609ADAD7)
   (descr "X2SON 5 pin 1x1mm package (Reference Datasheet: https://www.onsemi.com/pub/Collateral/711AJ.PDF Reference part: NCP167)")
   (tags "X2SON")
   (attr smd)
@@ -74,7 +74,8 @@
         (xy 0.14 -0.13)
       ) (width 0) (fill yes))
     ) (tstamp af93ca9b-671f-4f87-987f-9f16ab355b93))
-  (pad "5" smd rect locked (at 0 0 45) (size 0.52 0.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5c08c2c0-8931-4bda-aa75-fc81a094f4d7))
+  (pad "5" smd rect locked (at 0 0 45) (size 0.52 0.52) (layers "F.Cu" "F.Paste" "F.Mask")
+    (zone_connect 2) (tstamp 5c08c2c0-8931-4bda-aa75-fc81a094f4d7))
   (model "${KICAD6_3DMODEL_DIR}/Package_SON.3dshapes/OnSemi_X2SON-4-1EP_1x1mm_P0.65mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
