@@ -1,0 +1,14 @@
+(footprint "Drill_1.0mm" (version 20210424) (generator pcbnew) (layer "F.Cu")
+  (tedit 60BEA713)
+  (descr "0.5mm drill hole for mouse bites")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -2.5) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ff0c2384-ae32-47bd-a061-7291be83abac)
+  )
+  (fp_text value "Drill_1.0mm" (at 0 1.3) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0153fe49-946e-4747-93c4-a9c6203df29e)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Mask) (tstamp 179b69ac-1995-4357-b773-f8761059f2a6))
+)
