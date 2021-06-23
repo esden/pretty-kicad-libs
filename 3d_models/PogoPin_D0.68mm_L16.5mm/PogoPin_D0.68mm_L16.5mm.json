@@ -1,0 +1,15 @@
+{
+    "parameterSets": {
+        "compressed": {
+            "$fn": "90",
+            "compressed": "true",
+            "pin_dia": "0.5",
+            "pin_len": "11.35",
+            "sleeve_dia": "0.68",
+            "sleeve_len": "13",
+            "tip_angle": "30",
+            "total_len": "16.35"
+        }
+    },
+    "fileFormatVersion": "1"
+}
