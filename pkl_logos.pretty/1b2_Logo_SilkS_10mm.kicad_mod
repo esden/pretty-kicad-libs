@@ -1,13 +1,13 @@
-(footprint "1b2_Logo_SilkS_10mm" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60948E81)
+(footprint "1b2_Logo_SilkS_10mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
+  (tedit 60D61FFD)
   (descr "1BitSquared Logo, Silk Screen, 10mm")
   (tags "logo symbol 1bitsquared 1b2")
   (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 6) (layer "F.Fab")
+  (fp_text reference "REF**" (at 0 -6) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d20b7e9e-c820-4cca-988d-7f9cfb0ce3c9)
   )
-  (fp_text value "1b2_Logo_SilkS_10mm" (at 0 -6.35) (layer "F.Fab")
+  (fp_text value "1b2_Logo_SilkS_10mm" (at 0 6) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cc91e31d-6b67-4313-9c1e-c4c422da17f9)
   )
