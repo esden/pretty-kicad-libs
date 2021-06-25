@@ -1,9 +1,9 @@
 (footprint "NGFF_Module_Type_2230-XX-A" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60D2CE60)
+  (tedit 60D61CCA)
   (descr "NGFF (M.2) Module, Type 2230-XX-A")
   (tags "NGFF M2 PCIe Module Card")
   (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 0 -1 unlocked) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 683439d6-b755-4802-b793-f0958bf8f2d8)
   )
