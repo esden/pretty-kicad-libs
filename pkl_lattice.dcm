@@ -10,4 +10,9 @@ D Digital Visual Interface (DVI) Compliant PanelBus Digital Transmitter
 K DVI
 $ENDCMP
 #
+$CMP SII902xA-mod
+D Digital Visual Interface (DVI) Compliant PanelBus Digital Transmitter
+K DVI
+$ENDCMP
+#
 #End Doc Library
