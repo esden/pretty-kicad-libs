@@ -1,12 +1,12 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "pkl_module:iCEBreaker_Bitsy" (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20210619) (generator kicad_symbol_editor)
+  (symbol "pkl_module-legacy:iCEBreaker_Bitsy" (in_bom yes) (on_board yes)
     (property "Reference" "A" (id 0) (at 0 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "iCEBreaker_Bitsy" (id 1) (at 0 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "pkl_module:iCEBreaker_Bitsy" (id 2) (at 0 0 0)
+    (property "Footprint" "pkl_module:iCEBreaker_Bitsy" (id 2) (at 0 -21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://docs.icebreaker-fpga.org" (id 3) (at 0 -2.54 0)
@@ -24,9 +24,344 @@
     (property "ki_fp_filters" "iCEBreaker*Bitsy*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "iCEBreaker_Bitsy_1_0"
+      (text "Bottom IO Bank" (at -5.08 -6.35 900)
+        (effects (font (size 0.635 0.635)))
+      )
+      (text "Top IO Bank" (at 5.08 -6.35 900)
+        (effects (font (size 0.635 0.635)))
+      )
+      (text "USB_DET" (at 3.048 0 0)
+        (effects (font (size 0.635 0.635)) (justify right))
+      )
+      (polyline
+        (pts
+          (xy 3.175 0.381)
+          (xy 3.429 0.381)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.302 0.508)
+          (xy 3.302 0.254)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.715 0.381)
+          (xy 5.969 0.381)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.652 2.159)
+          (xy 9.906 2.159)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.652 5.461)
+          (xy 9.906 5.461)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.779 5.334)
+          (xy 9.779 5.588)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -19.05)
+          (xy 3.81 -19.05)
+          (xy 3.81 6.35)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 13.97)
+          (xy -3.81 13.97)
+          (xy -3.81 8.89)
+          (xy 10.16 8.89)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 2.54)
+          (xy 9.779 2.54)
+          (xy 9.779 5.08)
+          (xy 10.16 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 6.35)
+          (xy -3.81 6.35)
+          (xy -3.81 -19.05)
+          (xy -10.16 -19.05)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
     (symbol "iCEBreaker_Bitsy_1_1"
       (rectangle (start -10.16 17.78) (end 10.16 -20.32)
         (stroke (width 0.254)) (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -9.906 -18.161)
+          (xy -9.652 -18.161)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.906 -14.859)
+          (xy -9.652 -14.859)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.906 -13.081)
+          (xy -9.652 -13.081)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.906 -9.779)
+          (xy -9.652 -9.779)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.906 -0.381)
+          (xy -9.652 -0.381)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.906 2.921)
+          (xy -9.652 2.921)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.906 4.699)
+          (xy -9.652 4.699)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.906 8.001)
+          (xy -9.652 8.001)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.906 9.779)
+          (xy -9.652 9.779)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.906 13.081)
+          (xy -9.652 13.081)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.779 -14.986)
+          (xy -9.779 -14.732)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.779 -9.906)
+          (xy -9.779 -9.652)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.779 2.794)
+          (xy -9.779 3.048)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.779 7.874)
+          (xy -9.779 8.128)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -9.779 13.208)
+          (xy -9.779 12.954)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.842 0)
+          (xy 3.175 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.652 -18.161)
+          (xy 9.906 -18.161)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.652 -14.859)
+          (xy 9.906 -14.859)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.652 -13.081)
+          (xy 9.906 -13.081)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.652 -9.779)
+          (xy 9.906 -9.779)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.652 -5.461)
+          (xy 9.906 -5.461)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.652 -2.159)
+          (xy 9.906 -2.159)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.779 -14.986)
+          (xy 9.779 -14.732)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.779 -9.906)
+          (xy 9.779 -9.652)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 9.779 -2.286)
+          (xy 9.779 -2.032)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 -15.24)
+          (xy -9.779 -15.24)
+          (xy -9.779 -17.78)
+          (xy -10.16 -17.78)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 -10.16)
+          (xy -9.779 -10.16)
+          (xy -9.779 -12.7)
+          (xy -10.16 -12.7)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 2.54)
+          (xy -9.779 2.54)
+          (xy -9.779 0)
+          (xy -10.16 0)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 7.62)
+          (xy -9.779 7.62)
+          (xy -9.779 5.08)
+          (xy -10.16 5.08)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 12.7)
+          (xy -9.779 12.7)
+          (xy -9.779 10.16)
+          (xy -10.16 10.16)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -17.78)
+          (xy 9.779 -17.78)
+          (xy 9.779 -15.24)
+          (xy 10.16 -15.24)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -12.7)
+          (xy 9.779 -12.7)
+          (xy 9.779 -10.16)
+          (xy 10.16 -10.16)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -5.08)
+          (xy 9.779 -5.08)
+          (xy 9.779 -2.54)
+          (xy 10.16 -2.54)
+        )
+        (stroke (width 0)) (fill (type none))
       )
       (pin power_out line (at -12.7 15.24 0) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
