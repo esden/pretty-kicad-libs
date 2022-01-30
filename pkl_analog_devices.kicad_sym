@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20210619) (generator kicad_symbol_editor)
-  (symbol "pkl_analog_devices:ADP7118ACPZN-R7" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ADP7118ACPZN-R7" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 12.7 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -17,7 +17,8 @@
     )
     (symbol "ADP7118ACPZN-R7_0_0"
       (rectangle (start -7.62 7.62) (end 7.62 -10.16)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "ADP7118ACPZN-R7_1_0"
@@ -51,7 +52,7 @@
       )
     )
   )
-  (symbol "pkl_analog_devices:ADP7118ARDZ" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+  (symbol "ADP7118ARDZ" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 15.24 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -69,7 +70,8 @@
     )
     (symbol "ADP7118ARDZ_0_0"
       (rectangle (start -10.16 10.16) (end 10.16 -10.16)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "ADP7118ARDZ_1_0"
@@ -111,7 +113,7 @@
       )
     )
   )
-  (symbol "pkl_analog_devices:ADP7118AUJZ-1.8-R7" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+  (symbol "ADP7118AUJZ-1.8-R7" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 10.16 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -129,7 +131,8 @@
     )
     (symbol "ADP7118AUJZ-1.8-R7_0_0"
       (rectangle (start -10.16 5.08) (end 10.16 -5.08)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "ADP7118AUJZ-1.8-R7_1_0"

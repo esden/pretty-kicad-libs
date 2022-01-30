@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "pkl_logos:1BitSquared" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "1BitSquared" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "LOGO" (id 0) (at 5.08 0.635 90)
       (effects (font (size 1.524 1.524)) hide)
     )
@@ -14,7 +14,8 @@
     )
     (symbol "1BitSquared_0_1"
       (rectangle (start -0.635 0.635) (end -3.175 3.175)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -22,7 +23,8 @@
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -30,7 +32,8 @@
           (xy -1.905 -3.175)
           (xy 3.175 -3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -39,7 +42,8 @@
           (xy 0 0)
           (xy -0.635 0.635)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -48,7 +52,8 @@
           (xy 3.175 -3.175)
           (xy 2.54 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -60,11 +65,12 @@
           (xy 0.635 -0.635)
           (xy 0.635 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
   )
-  (symbol "pkl_logos:BlackSphere" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "BlackSphere" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "LOGO" (id 0) (at 0 0 0)
       (effects (font (size 1.524 1.524)) hide)
     )
@@ -81,7 +87,10 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (symbol "BlackSphere_0_1"
-      (circle (center 0 0) (radius 2.54) (stroke (width 0)) (fill (type none)))
+      (circle (center 0 0) (radius 2.54)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
     )
   )
 )

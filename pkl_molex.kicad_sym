@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "pkl_molex:PBlade02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "PBlade02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -17,28 +17,32 @@
     )
     (symbol "PBlade02_0_1"
       (rectangle (start -2.54 1.27) (end 1.27 -3.81)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -12.7)
           (xy -6.35 -12.7)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -47,7 +51,8 @@
           (xy -1.27 -3.175)
           (xy 1.27 -3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade02_1_1"
@@ -61,7 +66,7 @@
       )
     )
   )
-  (symbol "pkl_molex:PBlade03" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade03" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -79,35 +84,40 @@
     )
     (symbol "PBlade03_0_1"
       (rectangle (start -2.54 3.81) (end 1.27 -3.81)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -12.7)
           (xy -6.35 -12.7)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -116,7 +126,8 @@
           (xy -1.27 -3.175)
           (xy 1.27 -3.175)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade03_1_1"
@@ -134,7 +145,7 @@
       )
     )
   )
-  (symbol "pkl_molex:PBlade04" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade04" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -152,42 +163,48 @@
     )
     (symbol "PBlade04_0_1"
       (rectangle (start -2.54 3.81) (end 1.27 -6.35)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -12.7)
           (xy -6.35 -12.7)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -196,7 +213,8 @@
           (xy -1.27 -5.715)
           (xy 1.27 -5.715)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade04_1_1"
@@ -218,7 +236,7 @@
       )
     )
   )
-  (symbol "pkl_molex:PBlade05" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade05" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -236,49 +254,56 @@
     )
     (symbol "PBlade05_0_1"
       (rectangle (start -2.54 6.35) (end 1.27 -6.35)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -10.16)
           (xy -6.35 -10.16)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -287,7 +312,8 @@
           (xy -1.27 -5.715)
           (xy 1.27 -5.715)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade05_1_1"
@@ -313,7 +339,7 @@
       )
     )
   )
-  (symbol "pkl_molex:PBlade06" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade06" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -331,56 +357,64 @@
     )
     (symbol "PBlade06_0_1"
       (rectangle (start -2.54 6.35) (end 1.27 -8.89)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -10.16)
           (xy -6.35 -10.16)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -389,7 +423,8 @@
           (xy -1.27 -8.255)
           (xy 1.27 -8.255)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade06_1_1"
@@ -419,7 +454,7 @@
       )
     )
   )
-  (symbol "pkl_molex:PBlade07" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade07" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 10.16 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -437,63 +472,72 @@
     )
     (symbol "PBlade07_0_1"
       (rectangle (start -2.54 8.89) (end 1.27 -8.89)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -7.62)
           (xy -6.35 -7.62)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -502,7 +546,8 @@
           (xy -1.27 -8.255)
           (xy 1.27 -8.255)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade07_1_1"
@@ -536,7 +581,7 @@
       )
     )
   )
-  (symbol "pkl_molex:PBlade08" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade08" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 10.16 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -554,70 +599,80 @@
     )
     (symbol "PBlade08_0_1"
       (rectangle (start -2.54 8.89) (end 1.27 -11.43)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -7.62)
           (xy -6.35 -7.62)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -626,7 +681,8 @@
           (xy -1.27 -10.795)
           (xy 1.27 -10.795)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade08_1_1"
@@ -664,7 +720,7 @@
       )
     )
   )
-  (symbol "pkl_molex:PBlade09" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade09" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 12.7 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -682,77 +738,88 @@
     )
     (symbol "PBlade09_0_1"
       (rectangle (start -2.54 11.43) (end 1.27 -11.43)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -5.08)
           (xy -6.35 -5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -761,7 +828,8 @@
           (xy -1.27 -10.795)
           (xy 1.27 -10.795)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade09_1_1"
@@ -803,7 +871,7 @@
       )
     )
   )
-  (symbol "pkl_molex:PBlade10" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade10" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 12.7 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -821,84 +889,96 @@
     )
     (symbol "PBlade10_0_1"
       (rectangle (start -2.54 11.43) (end 1.27 -13.97)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -5.08)
           (xy -6.35 -5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -12.7)
           (xy 0 -12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -907,13 +987,18 @@
           (xy -1.27 -13.335)
           (xy 1.27 -13.335)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade10_1_1"
       (pin passive line (at -6.35 10.16 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 -12.7 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -6.35 7.62 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -947,13 +1032,9 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -6.35 -12.7 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
     )
   )
-  (symbol "pkl_molex:PBlade11" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade11" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -971,91 +1052,104 @@
     )
     (symbol "PBlade11_0_1"
       (rectangle (start -2.54 13.97) (end 1.27 -13.97)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -2.54)
           (xy -6.35 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -12.7)
           (xy 0 -12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 12.7)
           (xy 0 12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1064,13 +1158,22 @@
           (xy -1.27 -13.335)
           (xy 1.27 -13.335)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade11_1_1"
       (pin passive line (at -6.35 12.7 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 -10.16 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 -12.7 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -6.35 10.16 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1104,17 +1207,9 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -6.35 -10.16 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 -12.7 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
     )
   )
-  (symbol "pkl_molex:PBlade12" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade12" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1132,98 +1227,112 @@
     )
     (symbol "PBlade12_0_1"
       (rectangle (start -2.54 13.97) (end 1.27 -16.51)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 -2.54)
           (xy -6.35 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -15.24)
           (xy 0 -15.24)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -12.7)
           (xy 0 -12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 12.7)
           (xy 0 12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1232,13 +1341,26 @@
           (xy -1.27 -15.875)
           (xy 1.27 -15.875)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade12_1_1"
       (pin passive line (at -6.35 12.7 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 -10.16 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 -12.7 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 -15.24 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -6.35 10.16 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1272,21 +1394,9 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -6.35 -10.16 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 -12.7 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 -15.24 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
     )
   )
-  (symbol "pkl_molex:PBlade13" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade13" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1304,105 +1414,120 @@
     )
     (symbol "PBlade13_0_1"
       (rectangle (start -2.54 16.51) (end 1.27 -16.51)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 0)
           (xy -6.35 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -15.24)
           (xy 0 -15.24)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -12.7)
           (xy 0 -12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 12.7)
           (xy 0 12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 15.24)
           (xy 0 15.24)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1411,45 +1536,14 @@
           (xy -1.27 -15.875)
           (xy 1.27 -15.875)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade13_1_1"
       (pin passive line (at -6.35 15.24 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 12.7 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 10.16 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 7.62 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 5.08 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 2.54 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 0 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 -2.54 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 -5.08 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -6.35 -7.62 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1467,148 +1561,6 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-    )
-  )
-  (symbol "pkl_molex:PBlade14" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "PB" (id 0) (at -1.27 17.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "PBlade14" (id 1) (at -1.27 -20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at -1.27 11.43 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Datasheet" "" (id 3) (at -1.27 11.43 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "ki_fp_filters" "Pin_Header_Straight_1X04 Pin_Header_Angled_1X04 Socket_Strip_Straight_1X04 Socket_Strip_Angled_1X04" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "PBlade14_0_1"
-      (rectangle (start -2.54 16.51) (end 1.27 -19.05)
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -6.35 0)
-          (xy -6.35 0)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -17.78)
-          (xy 0 -17.78)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -15.24)
-          (xy 0 -15.24)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -12.7)
-          (xy 0 -12.7)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -10.16)
-          (xy 0 -10.16)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -7.62)
-          (xy 0 -7.62)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -5.08)
-          (xy 0 -5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -2.54)
-          (xy 0 -2.54)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 0)
-          (xy 0 0)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 2.54)
-          (xy 0 2.54)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 5.08)
-          (xy 0 5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 7.62)
-          (xy 0 7.62)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 10.16)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 12.7)
-          (xy 0 12.7)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 15.24)
-          (xy 0 15.24)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 15.875)
-          (xy -1.27 15.875)
-          (xy -1.27 -18.415)
-          (xy 1.27 -18.415)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "PBlade14_1_1"
-      (pin passive line (at -6.35 15.24 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at -6.35 12.7 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
@@ -1640,6 +1592,165 @@
       (pin passive line (at -6.35 -5.08 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PBlade14" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "PB" (id 0) (at -1.27 17.78 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PBlade14" (id 1) (at -1.27 -20.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at -1.27 11.43 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (id 3) (at -1.27 11.43 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "ki_fp_filters" "Pin_Header_Straight_1X04 Pin_Header_Angled_1X04 Socket_Strip_Straight_1X04 Socket_Strip_Angled_1X04" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "PBlade14_0_1"
+      (rectangle (start -2.54 16.51) (end 1.27 -19.05)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.35 0)
+          (xy -6.35 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -17.78)
+          (xy 0 -17.78)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -15.24)
+          (xy 0 -15.24)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -12.7)
+          (xy 0 -12.7)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -10.16)
+          (xy 0 -10.16)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -7.62)
+          (xy 0 -7.62)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -5.08)
+          (xy 0 -5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -2.54)
+          (xy 0 -2.54)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy 0 0)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 2.54)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 5.08)
+          (xy 0 5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 7.62)
+          (xy 0 7.62)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 10.16)
+          (xy 0 10.16)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 12.7)
+          (xy 0 12.7)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 15.24)
+          (xy 0 15.24)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 15.875)
+          (xy -1.27 15.875)
+          (xy -1.27 -18.415)
+          (xy 1.27 -18.415)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "PBlade14_1_1"
+      (pin passive line (at -6.35 15.24 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -6.35 -7.62 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1661,9 +1772,41 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
+      (pin passive line (at -6.35 12.7 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 10.16 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 7.62 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 5.08 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 2.54 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 0 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 -2.54 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 -5.08 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
     )
   )
-  (symbol "pkl_molex:PBlade15" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade15" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1681,119 +1824,136 @@
     )
     (symbol "PBlade15_0_1"
       (rectangle (start -2.54 19.05) (end 1.27 -19.05)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 2.54)
           (xy -6.35 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -17.78)
           (xy 0 -17.78)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -15.24)
           (xy 0 -15.24)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -12.7)
           (xy 0 -12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 12.7)
           (xy 0 12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 15.24)
           (xy 0 15.24)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 17.78)
           (xy 0 17.78)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1802,45 +1962,14 @@
           (xy -1.27 -18.415)
           (xy 1.27 -18.415)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade15_1_1"
       (pin passive line (at -6.35 17.78 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 15.24 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 12.7 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 10.16 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 7.62 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 5.08 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 2.54 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 0 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 -2.54 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -6.35 -5.08 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1866,162 +1995,6 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-    )
-  )
-  (symbol "pkl_molex:PBlade16" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "PB" (id 0) (at -1.27 20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "PBlade16" (id 1) (at -1.27 -22.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at -1.27 13.97 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Datasheet" "" (id 3) (at -1.27 13.97 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "ki_fp_filters" "Pin_Header_Straight_1X04 Pin_Header_Angled_1X04 Socket_Strip_Straight_1X04 Socket_Strip_Angled_1X04" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "PBlade16_0_1"
-      (rectangle (start -2.54 19.05) (end 1.27 -21.59)
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -6.35 2.54)
-          (xy -6.35 2.54)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -20.32)
-          (xy 0 -20.32)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -17.78)
-          (xy 0 -17.78)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -15.24)
-          (xy 0 -15.24)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -12.7)
-          (xy 0 -12.7)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -10.16)
-          (xy 0 -10.16)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -7.62)
-          (xy 0 -7.62)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -5.08)
-          (xy 0 -5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -2.54)
-          (xy 0 -2.54)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 0)
-          (xy 0 0)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 2.54)
-          (xy 0 2.54)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 5.08)
-          (xy 0 5.08)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 7.62)
-          (xy 0 7.62)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 10.16)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 12.7)
-          (xy 0 12.7)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 15.24)
-          (xy 0 15.24)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 17.78)
-          (xy 0 17.78)
-        )
-        (stroke (width 0.254)) (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 18.415)
-          (xy -1.27 18.415)
-          (xy -1.27 -20.955)
-          (xy 1.27 -20.955)
-        )
-        (stroke (width 0)) (fill (type none))
-      )
-    )
-    (symbol "PBlade16_1_1"
-      (pin passive line (at -6.35 17.78 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at -6.35 15.24 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
@@ -2053,6 +2026,181 @@
       (pin passive line (at -6.35 -2.54 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "PBlade16" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (property "Reference" "PB" (id 0) (at -1.27 20.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PBlade16" (id 1) (at -1.27 -22.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at -1.27 13.97 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Datasheet" "" (id 3) (at -1.27 13.97 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "ki_fp_filters" "Pin_Header_Straight_1X04 Pin_Header_Angled_1X04 Socket_Strip_Straight_1X04 Socket_Strip_Angled_1X04" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "PBlade16_0_1"
+      (rectangle (start -2.54 19.05) (end 1.27 -21.59)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.35 2.54)
+          (xy -6.35 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -20.32)
+          (xy 0 -20.32)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -17.78)
+          (xy 0 -17.78)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -15.24)
+          (xy 0 -15.24)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -12.7)
+          (xy 0 -12.7)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -10.16)
+          (xy 0 -10.16)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -7.62)
+          (xy 0 -7.62)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -5.08)
+          (xy 0 -5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -2.54)
+          (xy 0 -2.54)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy 0 0)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 2.54)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 5.08)
+          (xy 0 5.08)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 7.62)
+          (xy 0 7.62)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 10.16)
+          (xy 0 10.16)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 12.7)
+          (xy 0 12.7)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 15.24)
+          (xy 0 15.24)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.54 17.78)
+          (xy 0 17.78)
+        )
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 18.415)
+          (xy -1.27 18.415)
+          (xy -1.27 -20.955)
+          (xy 1.27 -20.955)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "PBlade16_1_1"
+      (pin passive line (at -6.35 17.78 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -6.35 -5.08 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -2082,9 +2230,41 @@
         (name "~" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
+      (pin passive line (at -6.35 15.24 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 12.7 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 10.16 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 7.62 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 5.08 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 2.54 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 0 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 -2.54 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
     )
   )
-  (symbol "pkl_molex:PBlade17" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "PBlade17" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "PB" (id 0) (at -1.27 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -2102,133 +2282,152 @@
     )
     (symbol "PBlade17_0_1"
       (rectangle (start -2.54 21.59) (end 1.27 -21.59)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -6.35 5.08)
           (xy -6.35 5.08)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -20.32)
           (xy 0 -20.32)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -17.78)
           (xy 0 -17.78)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -15.24)
           (xy 0 -15.24)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -12.7)
           (xy 0 -12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -10.16)
           (xy 0 -10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -7.62)
           (xy 0 -7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -5.08)
           (xy 0 -5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -2.54)
           (xy 0 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 0 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 2.54)
           (xy 0 2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 5.08)
           (xy 0 5.08)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 7.62)
           (xy 0 7.62)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 10.16)
           (xy 0 10.16)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 12.7)
           (xy 0 12.7)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 15.24)
           (xy 0 15.24)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 17.78)
           (xy 0 17.78)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 20.32)
           (xy 0 20.32)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -2237,45 +2436,14 @@
           (xy -1.27 -20.955)
           (xy 1.27 -20.955)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "PBlade17_1_1"
       (pin passive line (at -6.35 20.32 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 17.78 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 15.24 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 12.7 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 10.16 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 7.62 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 5.08 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 2.54 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 0 0) (length 3.81)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -6.35 -2.54 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -2308,6 +2476,38 @@
       (pin passive line (at -6.35 -20.32 0) (length 3.81)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 17.78 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 15.24 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 12.7 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 10.16 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 7.62 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 5.08 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 2.54 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -6.35 0 0) (length 3.81)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
       )
     )
   )
