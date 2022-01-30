@@ -4,3 +4,4 @@
 *.FCStd1
 *.kicad_prl
 *-backups
+fp-info-cache
