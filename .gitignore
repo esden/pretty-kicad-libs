@@ -2,3 +2,5 @@
 *.bak
 *.bck
 *.FCStd1
+*.kicad_prl
+*-backups
