@@ -20,7 +20,7 @@
   (pad 2 smd roundrect (at 1.15 -0.925) (size 1.3 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238))
   (pad GND smd roundrect (at -1.15 -0.925) (size 1.3 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238))
   (pad GND smd roundrect (at 1.15 0.925) (size 1.3 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238))
-  (model ${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm.step
+  (model ${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

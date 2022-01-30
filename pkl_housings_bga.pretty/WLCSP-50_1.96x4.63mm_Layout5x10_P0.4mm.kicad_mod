@@ -83,7 +83,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_housings_bga.3dshapes/Etron_WLCSP-50_1.96x4.63mm_Layout5x10_P0.4mm.step"
+  (model "${KIPRJMOD}/packages3d/pkl_housings_bga.3dshapes/Etron_WLCSP-50_1.96x4.63mm_Layout5x10_P0.4mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

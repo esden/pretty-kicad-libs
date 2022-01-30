@@ -49,7 +49,7 @@
   (pad "10" smd roundrect (at -5.325 1.28) (size 1.05 2.39) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp cccb9410-8d39-43d1-8659-f61cb3abc4f4))
   (pad "10" smd roundrect (at 5.325 -2.475) (size 1.05 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d8b660f9-f120-48e5-9bcb-95386dd00125))
   (pad "10" smd roundrect (at 2.045 -3.15) (size 2.91 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f934ab9a-f007-40a5-b81f-a4392713bc6a))
-  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_misc.3dshapes/microSD_HC_Molex_1051620001.stp"
+  (model "${KIPRJMOD}/packages3d/pkl_misc.3dshapes/microSD_HC_Molex_1051620001.stp"
     (offset (xyz 0 0 0.3))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

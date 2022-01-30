@@ -1,5 +1,6 @@
-(footprint "Hirose_BM28-BM28B0.6-20DS-2-0.35V_2x10_P0.35mm_PowerPin2_Vertical" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 604A7AA3)
+(footprint "Hirose_BM28-BM28B0.6-20DS-2-0.35V_2x10_P0.35mm_PowerPin2_Vertical" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61F63C06)
   (descr "Hirose BM28 series connector, BM28B0.6-20DS/2-0.35V (https://www.hirose.com/en/product/document?clcode=&productname=&series=BM28&documenttype=Catalog&lang=en&documentid=D143865_en)")
   (tags "connector Hirose BM28 20pin receptacle vertical")
   (attr smd)
@@ -73,7 +74,7 @@
   (pad "21" smd roundrect (at -0.745 -2.275 90) (size 0.53 0.31) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 440e9603-71b7-44d5-bf4b-65babdd22ba0))
   (pad "22" smd roundrect (at 0.745 2.275 90) (size 0.53 0.31) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2ac16f52-1df8-4414-a8ba-ea402fd2a5d7))
   (pad "22" smd roundrect (at -0.745 2.275 90) (size 0.53 0.31) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4e3e6bb3-1c45-467a-9c92-be34c01fd808))
-  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_connectors.3dshapes/Hirose_BM28-20DS.stp"
+  (model "${KIPRJMOD}/packages3d/pkl_connectors.3dshapes/Hirose_BM28-20DS.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

@@ -81,7 +81,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../../lib/gkl/packages3d/gkl_housings_bga.3dshapes/xson-4.step"
+  (model "${KIPRJMOD}/packages3d/gkl_housings_bga.3dshapes/xson-4.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

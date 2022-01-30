@@ -39,7 +39,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_housings_son.3dshapes/USON-8-1EP_1.5x1.5mm_P0.4mm_EP0.7x1.3mm.step"
+  (model "${KIPRJMOD}/packages3d/pkl_housings_son.3dshapes/USON-8-1EP_1.5x1.5mm_P0.4mm_EP0.7x1.3mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

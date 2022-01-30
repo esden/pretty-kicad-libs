@@ -246,7 +246,7 @@
   (pad 3 smd roundrect (at -2.05 -12.065) (size 1.9 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 2 smd roundrect (at 2.05 -13.335) (size 1.9 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 1 smd roundrect (at -2.05 -13.335) (size 1.9 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/../../lib/pkl/packages3d/pkl_pin_sockets.3dshapes/CLP-122-02-F-D-BE-A.stp
+  (model ${KIPRJMOD}/packages3d/pkl_pin_sockets.3dshapes/CLP-122-02-F-D-BE-A.stp
     (offset (xyz 0 0 0.1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

@@ -40,7 +40,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_housings_lga.3dshapes/LGA-8_8x6.2mm_P1.27mm.step"
+  (model "${KIPRJMOD}/packages3d/pkl_housings_lga.3dshapes/LGA-8_8x6.2mm_P1.27mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

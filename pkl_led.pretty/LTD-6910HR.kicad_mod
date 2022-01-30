@@ -109,7 +109,7 @@
   (pad 16 thru_hole circle (at 15.24 5.08) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at 15.24 2.54) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 18 thru_hole circle (at 15.24 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Display_7Segment.3dshapes/DA56-11SEKWA.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Display_7Segment.3dshapes/DA56-11SEKWA.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

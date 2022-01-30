@@ -76,7 +76,7 @@
   (pad "13" smd oval (at 21.6 4.25) (size 1.25 0.28) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 7170ee4c-c449-4b74-8a50-b7afb27f3bda))
   (pad "14" smd oval (at 21.6 3.75) (size 1.25 0.28) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 3f4db393-c024-4c22-899c-9ccff83d378d))
   (pad "15" smd oval (at 21.6 3.25) (size 1.25 0.28) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 29b69929-dd53-4380-9bb1-ca228d3aa255))
-  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_misc.3dshapes/ER-OLED0_91.step"
+  (model "${KIPRJMOD}/packages3d/pkl_misc.3dshapes/ER-OLED0_91.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

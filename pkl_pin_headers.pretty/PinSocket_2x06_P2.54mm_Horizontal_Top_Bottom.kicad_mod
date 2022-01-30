@@ -103,7 +103,7 @@
   (pad 11 thru_hole oval (at 2.54 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at 0 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 12 thru_hole oval (at 2.54 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.wrl
+  (model ${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.wrl
     (offset (xyz 0 -12.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

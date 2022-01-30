@@ -132,7 +132,7 @@
     (zone_connect 2))
   (pad 57 smd roundrect (at 0 0) (size 6.45 6.45) (layers F.Cu F.Mask) (roundrect_rratio 0.039)
     (solder_paste_margin_ratio -0.1))
-  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-56-1EP_8x8mm_P0.5mm_EP5.6x5.6mm.step
+  (model ${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_8x8mm_P0.5mm_EP5.6x5.6mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

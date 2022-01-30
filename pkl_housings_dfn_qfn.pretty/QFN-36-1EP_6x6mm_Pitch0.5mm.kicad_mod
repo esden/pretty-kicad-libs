@@ -64,7 +64,7 @@
   (pad 36 smd roundrect (at -2 -2.75 90) (size 0.75 0.3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 37 smd roundrect (at 0 0) (size 4.1 4.1) (layers F.Cu F.Mask) (roundrect_rratio 0.061)
     (solder_paste_margin_ratio -0.2))
-  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm.step
+  (model ${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

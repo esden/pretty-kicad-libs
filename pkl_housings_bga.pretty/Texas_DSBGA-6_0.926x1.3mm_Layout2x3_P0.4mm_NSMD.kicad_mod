@@ -45,7 +45,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_housings_bga.3dshapes/Texas_DSBGA-6_0.7x1.05mm_Layout2x3_P0.35mm_SMD.step"
+  (model "${KIPRJMOD}/packages3d/pkl_housings_bga.3dshapes/Texas_DSBGA-6_0.7x1.05mm_Layout2x3_P0.35mm_SMD.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

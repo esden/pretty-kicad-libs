@@ -34,7 +34,7 @@
     (zone_connect 2) (tstamp 6f6124c3-d09a-4c88-aaf1-cac26ca8c15d))
   (pad "1" smd rect locked (at 0 0.5) (size 6 1) (layers "B.Cu" "B.Mask")
     (zone_connect 2) (tstamp ad25e682-50b3-4a9f-94d1-be2c9989ddcf))
-  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_misc.3dshapes/M2_screw.step"
+  (model "${KIPRJMOD}/packages3d/pkl_misc.3dshapes/M2_screw.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

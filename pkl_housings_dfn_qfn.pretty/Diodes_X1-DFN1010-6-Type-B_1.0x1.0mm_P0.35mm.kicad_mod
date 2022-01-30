@@ -37,7 +37,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../../lib/pkl/packages3d/pkl_housings_dfn_qfn.3dshapes/DFN1010B-6.stp"
+  (model "${KIPRJMOD}/packages3d/pkl_housings_dfn_qfn.3dshapes/DFN1010B-6.stp"
     (offset (xyz 0 0 0.39))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 90))
