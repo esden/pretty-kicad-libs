@@ -1,6 +1,6 @@
 (footprint "SW_SPST_3x4x2.5" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F63B07)
+  (tedit 62046D62)
   (descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
   (tags "SPST Button Switch")
   (attr smd)
@@ -37,6 +37,11 @@
   (pad "2" smd roundrect (at -2.3 1.125) (size 1 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2ee8f6fb-ba95-46e7-aac0-264017c7b564))
   (pad "2" smd roundrect (at 2.3 1.125) (size 1 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 41dee7bf-3e3d-45a7-961c-f54eaad7011a))
   (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/packages3d/pkl_buttons_switches.3dshapes/PTS810SJG250SMTRLFS.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
