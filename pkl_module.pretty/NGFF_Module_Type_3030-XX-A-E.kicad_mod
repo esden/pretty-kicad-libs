@@ -35,27 +35,27 @@
   (fp_arc (start 0 -30) (end -1.75 -30) (angle -180) (layer "F.Fab") (width 0.1) (tstamp cb06cd2f-cd0a-43c5-9dfd-17e0c206a99e))
   (fp_arc (start 10.424999 -3.5) (end 9.925 -3.5) (angle 90) (layer "F.Fab") (width 0.1) (tstamp eb78cf33-902c-4b0c-8e62-0f5d2ed49a44))
   (fp_arc (start 2.625 -2.9) (end 2.025 -2.9) (angle 180) (layer "F.Fab") (width 0.1) (tstamp f63641b5-6f74-4888-9af9-99534ed141cb))
-  (model "${KIPRJMOD}/packages3d/pkl_modules.3dshapes/NGFF_Module_Type_3030-D1-A-E.step" hide
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_modules.3dshapes/NGFF_Module_Type_3030-D1-A-E.step" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/packages3d/pkl_modules.3dshapes/NGFF_Module_Type_3030-D3-A-E.step" hide
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_modules.3dshapes/NGFF_Module_Type_3030-D3-A-E.step" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/packages3d/pkl_modules.3dshapes/NGFF_Module_Type_3030-D4-A-E.step" hide
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_modules.3dshapes/NGFF_Module_Type_3030-D4-A-E.step" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/packages3d/pkl_modules.3dshapes/NGFF_Module_Type_3030-S1-A-E.step"
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_modules.3dshapes/NGFF_Module_Type_3030-S1-A-E.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/packages3d/pkl_modules.3dshapes/NGFF_Module_Type_3030-S3-A-E.step" hide
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_modules.3dshapes/NGFF_Module_Type_3030-S3-A-E.step" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

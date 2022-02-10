@@ -1,6 +1,6 @@
 (footprint "SW_SPST_KMR2" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F63A9E)
+  (tedit 62046FE4)
   (descr "CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf")
   (tags "tactile switch kmr2")
   (attr smd)
@@ -37,5 +37,10 @@
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_buttons_switches.3dshapes/KMR211GLFS.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )

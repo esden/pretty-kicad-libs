@@ -43,7 +43,7 @@
   (pad "5" thru_hole circle (at 18.5 0) (size 3 3) (drill 2) (layers *.Cu *.Mask) (tstamp 5f97827f-c36d-47fb-b3b4-3d9bc5c240ba))
   (pad "6" thru_hole circle (at 22.5 0) (size 3 3) (drill 2) (layers *.Cu *.Mask) (tstamp 7d935433-23a4-4a5b-b4b9-283e3ee03f82))
   (pad "7" thru_hole circle (at 26.5 0) (size 3 3) (drill 2) (layers *.Cu *.Mask) (tstamp 6b27399d-223b-41fb-9007-53e3051952f2))
-  (model "${KIPRJMOD}/packages3d/pkl_connectors.3dshapes/SNES.stp"
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_connectors.3dshapes/SNES.stp"
     (offset (xyz 16.3 4.8 15))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -1,6 +1,6 @@
 (footprint "USB_C_Receptacle_HRO_TYPE-C-31-M-12" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F63DD1)
+  (tedit 62047111)
   (descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
   (tags "usb usb-c 2.0 pd")
   (attr smd)
@@ -80,7 +80,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/packages3d/pkl_connectors.3dshapes/HRO_TYPE-C-31-M-12.step"
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_connectors.3dshapes/HRO_TYPE-C-31-M-12.step"
     (offset (xyz -4.465 -3.65 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

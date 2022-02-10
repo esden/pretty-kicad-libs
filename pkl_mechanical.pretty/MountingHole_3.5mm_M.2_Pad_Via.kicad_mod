@@ -41,7 +41,7 @@
     (zone_connect 2) (tstamp 6f6124c3-d09a-4c88-aaf1-cac26ca8c15d))
   (pad "1" thru_hole circle (at -2.318222 0.621166) (size 0.5 0.5) (drill 0.3) (layers *.Cu *.Mask) (tstamp 8b317259-a6ea-4229-a39e-f8b067899999))
   (pad "1" thru_hole circle (at -1.014284 2.175139) (size 0.5 0.5) (drill 0.3) (layers *.Cu *.Mask) (tstamp 9ccb5ad8-7256-4c83-b74f-f3b4a1bf8b95))
-  (model "${KIPRJMOD}/packages3d/pkl_misc.3dshapes/M2_screw.step"
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_misc.3dshapes/M2_screw.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -47,7 +47,7 @@
   (fp_arc (start 5 7) (end 5 7.5) (angle -90) (layer "F.Fab") (width 0.1) (tstamp 822e4e4a-e893-4b9c-bed9-1c718ce71796))
   (fp_arc (start -5 -7) (end -5 -7.5) (angle -90) (layer "F.Fab") (width 0.1) (tstamp abdf9ffb-4794-4775-8e1d-f541d76e9a4e))
   (fp_arc (start -5 7) (end -5.5 7) (angle -90) (layer "F.Fab") (width 0.1) (tstamp cd72e568-9839-4ae2-b3cd-c5550ce2205a))
-  (model "${KIPRJMOD}/packages3d/pkl_misc.3dshapes/microSD_card.step"
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_misc.3dshapes/microSD_card.step"
     (offset (xyz 5.5 -7.5 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))

@@ -1,6 +1,6 @@
 (footprint "SW_SPDT_SK-3296S" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F63B0D)
+  (tedit 62046F95)
   (descr "Ultraminiature Surface Mount Slide Switch")
   (attr smd)
   (fp_text reference "REF**" (at 0 -3.5) (layer "F.Fab")
@@ -48,7 +48,7 @@
   (pad "1" smd roundrect (at -2.25 -2.125) (size 0.9 1.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e62f197b-14e9-4d7d-995e-f4173dfe27e8))
   (pad "2" smd roundrect (at 0.75 -2.125) (size 0.9 1.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4296a551-dd47-4540-a78a-fc3c30080a75))
   (pad "3" smd roundrect (at 2.25 -2.125) (size 0.9 1.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c2779da6-07d9-4c1f-8510-72b874ff8dcc))
-  (model "${KIPRJMOD}/packages3d/pkl_buttons_switches.3dshapes/PCM12SMTR.step"
+  (model "${KIPRJMOD}/${PKL_REL_DIR}//packages3d/pkl_buttons_switches.3dshapes/PCM12SMTR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

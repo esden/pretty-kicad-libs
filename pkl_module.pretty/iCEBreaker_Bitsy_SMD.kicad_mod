@@ -178,7 +178,7 @@
   (pad 34 smd circle (at 0 14.08) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask))
   (pad 35 smd circle (at 2.54 14.08) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask))
   (pad 36 smd circle (at 5.08 14.08) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/packages3d/pkl_modules.3dshapes/icebreaker-bitsy-v1.1b.step
+  (model ${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_modules.3dshapes/icebreaker-bitsy-v1.1b.step
     (offset (xyz 50 50 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

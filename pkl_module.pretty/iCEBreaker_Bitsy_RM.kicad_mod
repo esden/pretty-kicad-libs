@@ -159,7 +159,7 @@
   (pad 30 smd roundrect (at 0 17.128 90) (size 2.54 1.524) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 31 smd roundrect (at -2.54 17.128 90) (size 2.54 1.524) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 32 smd roundrect (at -5.08 17.128 90) (size 2.54 1.524) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/packages3d/pkl_modules.3dshapes/icebreaker-bitsy-v1.1b.step
+  (model ${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_modules.3dshapes/icebreaker-bitsy-v1.1b.step
     (offset (xyz -50 50 1.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 -90))

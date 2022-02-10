@@ -140,7 +140,7 @@
   (pad "75" smd roundrect (at 9.25 -5.275) (size 0.3 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1f9f9576-111e-42ea-9992-e9496c80d04e))
   (pad "MP" smd roundrect (at -10.35 -4.5) (size 1.2 2.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 468ed0ef-e547-4bbe-a6a4-8f776468f8a7))
   (pad "MP" smd roundrect (at 10.35 -4.5) (size 1.2 2.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bb2cc8fc-16b8-4f2c-96ef-c25e4775894c))
-  (model "${KIPRJMOD}/packages3d/pkl_connectors.3dshapes/2199230-4.stp"
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_connectors.3dshapes/2199230-4.stp"
     (offset (xyz 0 -2.5 2.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

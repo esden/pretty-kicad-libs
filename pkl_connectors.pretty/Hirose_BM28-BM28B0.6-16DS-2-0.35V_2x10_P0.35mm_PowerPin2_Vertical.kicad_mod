@@ -68,7 +68,7 @@
   (pad "17" smd roundrect (at 0.745 -1.925 90) (size 0.53 0.31) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 533f116a-2f8e-4522-b229-639180ad45e1))
   (pad "18" smd roundrect (at 0.745 1.925 90) (size 0.53 0.31) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0e1bb2d1-681f-4fe6-8d48-21035fc7cc58))
   (pad "18" smd roundrect (at -0.745 1.925 90) (size 0.53 0.31) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e748ff2f-5edd-4455-861c-b1fb1298c372))
-  (model "${KIPRJMOD}/packages3d/pkl_connectors.3dshapes/Hirose_BM28-16DS.stp"
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_connectors.3dshapes/Hirose_BM28-16DS.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

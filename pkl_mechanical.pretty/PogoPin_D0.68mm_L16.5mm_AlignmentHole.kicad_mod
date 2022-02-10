@@ -13,17 +13,17 @@
   )
   (fp_circle (center 0 0) (end 0.6 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 5ceea71b-dc8c-4f8e-816b-bdda4d98dac5))
   (pad "" np_thru_hole circle (at 0 0) (size 0.7 0.7) (drill 0.7) (layers F&B.Cu *.Mask) (tstamp 4fdb4b8d-c5d8-413f-a7fc-0430a2626246))
-  (model "${KIPRJMOD}/packages3d/pkl_misc.3dshapes/PogoPin_D0.68mm_L16.5mm.step" hide
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_misc.3dshapes/PogoPin_D0.68mm_L16.5mm.step" hide
     (offset (xyz 0 0 -16.35))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/packages3d/pkl_misc.3dshapes/PogoPin_D0.68mm_L16.5mm_MidStroke.step"
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_misc.3dshapes/PogoPin_D0.68mm_L16.5mm_MidStroke.step"
     (offset (xyz 0 0 -15))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/packages3d/pkl_misc.3dshapes/PogoPin_D0.68mm_L16.5mm_Compressed.step" hide
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_misc.3dshapes/PogoPin_D0.68mm_L16.5mm_Compressed.step" hide
     (offset (xyz 0 0 -13.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -35,7 +35,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/packages3d/pkl_leds.3dshapes/UHD1110-FKA.step"
+  (model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_leds.3dshapes/UHD1110-FKA.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
