@@ -26,7 +26,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "BGA-9_3x3_3.14x3.14mm"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -298,5 +298,16 @@
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f87c9187-2507-4664-b811-d5f40c06ad43")
+	)
+	(model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_housings_bga.3dshapes/Broadcom_AFBR-S4N33C013.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
