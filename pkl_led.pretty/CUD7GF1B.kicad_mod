@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "CUD7GF1B"
 		(at 21.7 10.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -240,5 +240,16 @@
 		(roundrect_rratio 0.09615384615)
 		(solder_paste_margin -0.05)
 		(uuid "0ee05e9e-4b5a-47be-a607-afc32d2e70a6")
+	)
+	(model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_leds.3dshapes/CUD7GF1B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
