@@ -1,0 +1,198 @@
+(footprint "J_NCNONCNO_1002_15"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Jumper Dual SMD 0602, reflow soldering")
+	(tags "jumper 0402 nettie")
+	(property "Reference" "REF**"
+		(at 0 -1.1 0)
+		(layer "F.Fab")
+		(uuid "5bf1f64b-4d4c-4361-b1f5-090bb0f80b16")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "J_NCNONCNO_1002_15"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(uuid "3c22cd7b-57ba-423e-b0c5-bb64cb6717bb")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" "J_NCNO_0602_15"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9ff4f49-b46d-487f-a2a4-d23107a3206d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.85 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77602059-9dce-428e-9ab4-ef6d275214d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.85 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7f8f321-082a-4293-8ad2-e4e6ea4e89bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(net_tie_pad_groups "1,2")
+	(fp_rect
+		(start -1.38 -0.08)
+		(end -1.17 0.08)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "21a6ea8b-9a39-4668-876b-90bab3ee2b2b")
+	)
+	(fp_rect
+		(start 0.32 -0.08)
+		(end 0.53 0.08)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "0317692d-e61d-4d3a-b029-b9ae8c1351d6")
+	)
+	(fp_rect
+		(start -2.15 -0.4)
+		(end 2.15 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "41766818-d559-4ecc-a38b-3bd0ec8d05e2")
+	)
+	(fp_poly
+		(pts
+			(xy -1.325 -0.2) (xy -1.225 -0.2) (xy -1.225 0.2) (xy -1.325 0.2)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "120c4d22-78ff-43d7-8415-21e6e48788db")
+	)
+	(fp_poly
+		(pts
+			(xy -0.475 -0.2) (xy -0.375 -0.2) (xy -0.375 0.2) (xy -0.475 0.2)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "67ee0c1d-cf53-43bb-b103-1d2f015e0092")
+	)
+	(fp_poly
+		(pts
+			(xy 0.375 -0.2) (xy 0.475 -0.2) (xy 0.475 0.2) (xy 0.375 0.2)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "dac20d53-277e-4737-838d-ef99283d224d")
+	)
+	(fp_poly
+		(pts
+			(xy 1.225 -0.2) (xy 1.325 -0.2) (xy 1.325 0.2) (xy 1.225 0.2)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "b32fe4bb-15bc-4eea-8243-477c376d5904")
+	)
+	(fp_rect
+		(start -2.2 -0.45)
+		(end 2.2 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b6716cda-a0dd-4316-95d6-cce804f270ef")
+	)
+	(pad "1" smd roundrect
+		(at -1.7 0)
+		(size 0.65 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "680ef355-aa63-48a4-b384-4be12a4f588d")
+	)
+	(pad "2" smd roundrect
+		(at -0.85 0)
+		(size 0.65 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "5593b7f0-a26d-4227-9cb8-b1f40e9b3e2b")
+	)
+	(pad "3" smd roundrect
+		(at 0 0)
+		(size 0.65 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a7815a26-cb4f-4918-871d-1ac71b163c65")
+	)
+	(pad "4" smd roundrect
+		(at 0.85 0)
+		(size 0.65 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c0c0290d-c0ae-4528-9240-c0b5d7caead4")
+	)
+	(pad "5" smd roundrect
+		(at 1.7 0)
+		(size 0.65 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f8fa1a19-3df5-4e35-a4ea-8a040ffe5e5b")
+	)
+)
