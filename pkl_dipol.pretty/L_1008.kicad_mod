@@ -1,0 +1,178 @@
+(footprint "L_1008"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0806 (Metric 2016), reflow soldering")
+	(tags "inductor 0806")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(uuid "027e9a1e-e7e7-4b39-a070-4896783f9a93")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_1008"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(uuid "b1e8414d-b67e-4e28-8b05-304b9f4799eb")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e6fc473-80f5-4acd-9e1c-3135bd415667")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65a03e97-6a36-47c8-81fe-da7f8505441f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e3bb220-5eb4-434f-888a-29fcf0fe966d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.9)
+		(end 0.7 -0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c629b333-5422-4193-9dce-d3ac75310fc8")
+	)
+	(fp_line
+		(start 0.7 0.9)
+		(end -0.7 0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c388d026-e424-4ff4-ae8b-fa836da898de")
+	)
+	(fp_arc
+		(start 0.175 -0.4)
+		(mid -0.025 -0.6)
+		(end 0.175 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1cc2524-d113-4783-adfb-0f607ab84689")
+	)
+	(fp_arc
+		(start 0.175 0)
+		(mid -0.025 -0.2)
+		(end 0.175 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad5a8a6b-d486-4181-8993-fe33b4b06668")
+	)
+	(fp_arc
+		(start 0.175 0.4)
+		(mid -0.025 0.2)
+		(end 0.175 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93253bc2-92e9-4b2e-8dd5-663afa47e408")
+	)
+	(fp_arc
+		(start 0.175 0.8)
+		(mid -0.025 0.6)
+		(end 0.175 0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc515c3f-cf94-416b-ab9d-d2e43f3ddb5e")
+	)
+	(fp_rect
+		(start -1.6 -1.15)
+		(end 1.6 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "526c4f40-880f-40ff-a1a8-4f013b17da11")
+	)
+	(fp_rect
+		(start -1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1699bf39-1ed9-4079-a899-604d337ccf56")
+	)
+	(pad "1" smd roundrect
+		(at -1.1 0)
+		(size 0.7 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a67866a2-3332-425e-816b-993725565ebb")
+	)
+	(pad "2" smd roundrect
+		(at 1.1 0)
+		(size 0.7 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "296aab26-ff38-4c62-8790-f61080c1b623")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1.28 0.8)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
