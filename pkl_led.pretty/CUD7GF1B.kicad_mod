@@ -78,8 +78,8 @@
 		(uuid "68665e8c-d3b8-4f43-9f96-2f70a2a52fbd")
 	)
 	(fp_line
-		(start 1.1 -0.5)
-		(end 1.1 0.5)
+		(start 0.7 0.5)
+		(end 0.7 -0.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -119,7 +119,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 0.7 -0.5) (xy 1.1 0) (xy 0.7 0.5)
+			(xy 1.1 0.5) (xy 0.7 0) (xy 1.1 -0.5)
 		)
 		(stroke
 			(width 0.1)
