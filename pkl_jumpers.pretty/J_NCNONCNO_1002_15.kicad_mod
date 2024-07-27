@@ -36,7 +36,7 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.15)
+				(thickness 0.125)
 			)
 		)
 	)
@@ -66,8 +66,8 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
-	(net_tie_pad_groups "1,2")
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(net_tie_pad_groups "1, 2" "3, 4")
 	(fp_rect
 		(start -1.38 -0.08)
 		(end -1.17 0.08)
