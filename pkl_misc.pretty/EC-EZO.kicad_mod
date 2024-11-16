@@ -1,0 +1,277 @@
+(footprint "EC-EZO"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "EC-EZO conductivity sensor module.")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "810f8774-9087-48a0-8f60-c57889dc3bd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EC-EZO"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c1ded7e-20d6-4d58-834a-f2cc79ce4ab4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c66555e-a58d-4be5-b2cb-6008cd8857b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cccfe735-4acd-4ae6-9334-b70081f5c496")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac1accac-d096-499a-ac5c-dde40d653e8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7 -10.1)
+		(end 7 10.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f5d01f0d-1668-4ca1-a854-210d222c4e0b")
+	)
+	(fp_rect
+		(start -6.35 -8.89)
+		(end -5.08 -7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b4a616dd-2063-40c6-8961-9b3965407883")
+	)
+	(fp_rect
+		(start -7.25 -10.35)
+		(end 7.25 10.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6943a15d-e327-4a6d-b3c9-b647be1bcfa7")
+	)
+	(fp_text user "PRB"
+		(at 0 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1df6687e-0ac1-4f12-84bc-490f1307e87a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "GND"
+		(at -2.54 -7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "32d579cf-50f1-4296-83e8-ed7f73500a6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "RX"
+		(at 2.54 -7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "46e67b3a-c2cb-480c-b135-12d2dd10ca12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "TX"
+		(at 0 -7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "90d2da56-2dae-411a-ac58-a8756c05c32c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "PRB"
+		(at 2.54 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd0bd0bf-8f4b-4da6-8a29-bcb3b2f08b1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "VCC"
+		(at -2.54 7.62 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bfb5242c-324b-497d-93cc-a416509554b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "07c4b0fc-2f58-4f4e-89de-8fb6edb15740")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 -8.89)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "d54a6714-4d75-451f-a3f3-8701ff4d488b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -8.89)
+		(size 1.524 1.524)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4325a74-2c7a-4a7b-8cdd-f1e476620026")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 -8.89)
+		(size 1.524 1.524)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7033bc7-6081-4cb6-9fb5-408c56eb73a3")
+	)
+	(pad "4" thru_hole roundrect
+		(at 2.54 8.89)
+		(size 1.524 1.524)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "85d139b6-ddf5-46d1-9083-254e7b963f0f")
+	)
+	(pad "5" thru_hole circle
+		(at 0 8.89)
+		(size 1.524 1.524)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ee47696-fab0-45a6-b078-39231f0242f0")
+	)
+	(pad "6" thru_hole circle
+		(at -2.54 8.89)
+		(size 1.524 1.524)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "059bc46a-c337-4ef7-a81b-042cf278a554")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz -2.54 8.89 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 2.54 -8.89 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+	(model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_modules.3dshapes/ec-ezo-module.step"
+		(offset
+			(xyz 0 0 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
