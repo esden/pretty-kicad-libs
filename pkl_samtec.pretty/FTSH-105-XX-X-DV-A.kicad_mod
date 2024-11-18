@@ -1,4 +1,4 @@
-(footprint "FTSH-105-XX-X-DV"
+(footprint "FTSH-105-XX-X-DV-A"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "FTSH-105-XX-X-DV"
+	(property "Value" "FTSH-105-XX-X-DV-A"
 		(at 0 -4.5 0)
 		(layer "F.Fab")
 		(uuid "93bff381-44b1-49c0-9fe6-6f74d7ed74cd")
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7e737c0b-7083-4aeb-b250-aafee930824e")
+		(uuid "ef5f50bc-f053-4d4f-8d45-83afcd95683f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2b5f0da5-6225-4753-811c-dbcba2345feb")
+		(uuid "f0143f27-3c4c-4969-940c-fdd74112389f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a9ec4b2f-42ce-47df-a6c7-958bb525d1ef")
+		(uuid "c42435a0-bea9-4250-9dea-6ff7eb3bdba4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -232,6 +232,20 @@
 		(layer "F.CrtYd")
 		(uuid "a44e1949-05bc-4cb5-8188-39fcdabfdabf")
 	)
+	(pad "" np_thru_hole circle
+		(at -1.905 0)
+		(size 1.02 1.02)
+		(drill 1.02)
+		(layers "*.Mask")
+		(uuid "4cbbfa78-03a9-498e-b5b1-34e1e0b0c99a")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.905 0)
+		(size 1.02 1.02)
+		(drill 1.02)
+		(layers "*.Mask")
+		(uuid "3d570c74-b712-4100-aafb-575b6694a79e")
+	)
 	(pad "1" smd roundrect
 		(at 2.54 -2 180)
 		(size 0.74 2.8)
@@ -302,7 +316,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "08659d0b-3487-494d-9c16-9d890ee40cee")
 	)
-	(model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_samtec.3dshapes/FTSH-105-01-L-DV-K.stp"
+	(model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_samtec.3dshapes/FTSH-105-01-L-DV-K-A.stp"
 		(offset
 			(xyz 0 0 0.4)
 		)
