@@ -93,7 +93,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 10.16 2.54 180)
 				(length 2.54) hide
 				(name "VOUT"
@@ -165,7 +165,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 2.54 0)
 				(length 2.54) hide
 				(name "VIN"
@@ -183,7 +183,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 2.54 0)
 				(length 2.54) hide
 				(name "VIN"
@@ -219,7 +219,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -10.16 90)
 				(length 2.54) hide
 				(name "GND"
@@ -237,7 +237,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -10.16 90)
 				(length 2.54) hide
 				(name "GND"
@@ -255,7 +255,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -10.16 90)
 				(length 2.54) hide
 				(name "GND"
