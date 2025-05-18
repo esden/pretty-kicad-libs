@@ -1,0 +1,134 @@
+(footprint "R_2010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 1206 (Metric 3216), reflow soldering")
+	(tags "resistor 1206")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(uuid "cc5d1b62-4400-47e4-8d62-c6ab7a0fa0fc")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "R_2010"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(uuid "733643cb-a770-4071-8e21-3f9e47c83750")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7241c67b-aee7-4a49-94b0-63acb25061d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3b8d8ac-3da2-4a32-a193-40a37c2938f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 -1.35)
+		(end 1.8 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2917028d-da0c-4706-ad2c-b1935ea11e89")
+	)
+	(fp_line
+		(start 1.8 1.35)
+		(end -1.8 1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac55a8c9-7cb2-4896-b0a4-04aa96ddf29d")
+	)
+	(fp_rect
+		(start -1.75 -1.1)
+		(end 1.75 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c2b24dda-3a68-4c4e-897b-20d5f5e9948b")
+	)
+	(fp_rect
+		(start -3.05 -1.65)
+		(end 3.05 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fabfa7c6-4a27-4827-882c-e141bca38508")
+	)
+	(fp_rect
+		(start -2.5 -1.25)
+		(end 2.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "78f83908-1e4c-493d-ab88-156105d3b3a0")
+	)
+	(pad "1" smd roundrect
+		(at -2.35 0)
+		(size 0.9 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "577e15a1-1411-4760-a413-288d2510d311")
+	)
+	(pad "2" smd roundrect
+		(at 2.35 0)
+		(size 0.9 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ae8dd00c-fb7d-4eb7-847d-e09b6c410deb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
