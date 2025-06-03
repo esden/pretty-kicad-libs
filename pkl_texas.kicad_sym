@@ -5262,22 +5262,20 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -7.62 19.05 0)
+		(property "Reference" "U10"
+			(at 0 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TPS61391"
-			(at -1.778 19.05 0)
+			(at 0 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm_ThermalVias"
@@ -5290,7 +5288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps61090.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61391.pdf"
 			(at 3.81 -29.21 0)
 			(effects
 				(font
@@ -5302,6 +5300,42 @@
 		)
 		(property "Description" "85-Vout Boost Converter with Current Mirror, 1A, Adjustable output voltage, QFN-16"
 			(at 0 -32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "296-TPS61391RTERCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS61391RTER"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5363,7 @@
 		)
 		(symbol "TPS61391_0_0"
 			(pin power_in line
-				(at -10.16 -13.97 0)
+				(at -10.16 -22.86 0)
 				(length 2.54)
 				(name "PAD"
 					(effects
@@ -5347,7 +5381,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -8.89 180)
+				(at 10.16 -17.78 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5368,8 +5402,8 @@
 		)
 		(symbol "TPS61391_0_1"
 			(rectangle
-				(start -7.62 17.78)
-				(end 7.62 -16.51)
+				(start -7.62 25.4)
+				(end 7.62 -25.4)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5381,7 +5415,7 @@
 		)
 		(symbol "TPS61391_1_0"
 			(pin power_in line
-				(at -10.16 15.24 0)
+				(at -10.16 22.86 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -5398,62 +5432,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 12.7 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -10.16 7.62 0)
-				(length 2.54)
-				(name "CAP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -10.16 2.54 0)
-				(length 2.54)
-				(name "ISHORT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -10.16 -2.54 0)
+				(at -10.16 15.24 0)
 				(length 2.54)
 				(name "AVCC"
 					(effects
@@ -5471,7 +5451,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -5.08 0)
+				(at -10.16 12.7 0)
 				(length 2.54)
 				(name "AVCC"
 					(effects
@@ -5488,8 +5468,62 @@
 					)
 				)
 			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "CAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 -12.7 0)
+				(length 2.54)
+				(name "ISHORT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at -10.16 -8.89 0)
+				(at -10.16 -17.78 0)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -5507,7 +5541,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -11.43 0)
+				(at -10.16 -20.32 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5525,7 +5559,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 15.24 180)
+				(at 10.16 22.86 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -5543,7 +5577,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 7.62 180)
+				(at 10.16 17.78 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -5579,7 +5613,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -3.81 180)
+				(at 10.16 -12.7 180)
 				(length 2.54)
 				(name "APD"
 					(effects
@@ -5597,7 +5631,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -8.89 180)
+				(at 10.16 -17.78 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -5616,25 +5650,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -11.43 180)
-				(length 2.54)
-				(name "MON2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 -13.97 180)
+				(at 10.16 -20.32 180)
 				(length 2.54)
 				(name "MON1"
 					(effects
@@ -5644,6 +5660,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -22.86 180)
+				(length 2.54)
+				(name "MON2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
