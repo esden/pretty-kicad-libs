@@ -4701,6 +4701,588 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "AFBR-S4N22P014M"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.7 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AFBR-S4N22P014M"
+			(at 12.7 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "pkl_housings_bga:BGA-4_2x2_2.71x2.48mm"
+			(at 0 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N22P014M-NUV-MT-SiPM-Data-Sheet"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NUV-MT Silicon Photomultiplier Array"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SiPM Photo Multiplier"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AFBR-S4N22P014M_0_1"
+			(polyline
+				(pts
+					(xy 1.27 5.334) (xy 1.27 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 5.334) (xy 1.27 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.254) (xy 1.27 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.254) (xy 1.27 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.334) (xy 5.08 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.334) (xy 5.08 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0.254) (xy 5.08 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0.254) (xy 5.08 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 5.334) (xy 8.89 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 5.334) (xy 8.89 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0.254) (xy 8.89 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0.254) (xy 8.89 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AFBR-S4N22P014M_1_0"
+			(pin passive line
+				(at -15.24 10.16 0)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 7.62 0)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "ANODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -10.16 0)
+				(length 2.54)
+				(name "ANODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AFBR-S4N22P014M_1_1"
+			(rectangle
+				(start -12.7 12.7)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.064) (xy 2.54 4.064) (xy 0 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.604) (xy 8.89 6.604) (xy 1.27 6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.064) (xy 1.27 6.604) (xy 1.27 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.064) (xy 2.54 1.524) (xy 0 1.524) (xy 1.27 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.016) (xy 1.27 1.524) (xy 1.27 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.016) (xy 0.254 -1.27) (xy 2.286 -1.778) (xy 0.254 -2.286) (xy 2.286 -2.794) (xy 0.254 -3.302)
+					(xy 2.286 -3.81) (xy 1.27 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -6.604) (xy 1.27 -4.064) (xy 1.27 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -6.604) (xy 8.89 -6.604) (xy 1.27 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 4.064) (xy 6.35 4.064) (xy 3.81 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 6.604) (xy 5.08 9.144) (xy 5.08 6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.08 6.604)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 4.064) (xy 5.08 6.604) (xy 5.08 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 4.064) (xy 6.35 1.524) (xy 3.81 1.524) (xy 5.08 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.016) (xy 5.08 1.524) (xy 5.08 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.016) (xy 4.064 -1.27) (xy 6.096 -1.778) (xy 4.064 -2.286) (xy 6.096 -2.794) (xy 4.064 -3.302)
+					(xy 6.096 -3.81) (xy 5.08 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -6.604) (xy 5.08 -4.064) (xy 5.08 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.08 -6.604)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -9.144) (xy 5.08 -6.604) (xy 5.08 -9.144)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 4.064) (xy 10.16 4.064) (xy 7.62 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 4.064) (xy 8.89 6.604) (xy 8.89 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 4.064) (xy 10.16 1.524) (xy 7.62 1.524) (xy 8.89 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -1.016) (xy 8.89 1.524) (xy 8.89 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -1.016) (xy 7.874 -1.27) (xy 9.906 -1.778) (xy 7.874 -2.286) (xy 9.906 -2.794) (xy 7.874 -3.302)
+					(xy 9.906 -3.81) (xy 8.89 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -6.604) (xy 8.89 -4.064) (xy 8.89 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "AFBR-S4N33C013"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4931,6 +5513,1260 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AFBR-S4N44P014M"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.7 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AFBR-S4N44P014M"
+			(at 12.7 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "pkl_housings_bga:BGA-5_3x3_4.31x4.18mm"
+			(at 0 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NUV-MT Silicon Photomultiplier Array"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "NUV-MT Silicon Photomultiplier"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AFBR-S4N44P014M_0_1"
+			(polyline
+				(pts
+					(xy 1.27 5.334) (xy 1.27 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 5.334) (xy 1.27 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.254) (xy 1.27 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.254) (xy 1.27 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.334) (xy 5.08 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.334) (xy 5.08 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0.254) (xy 5.08 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0.254) (xy 5.08 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 5.334) (xy 8.89 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 5.334) (xy 8.89 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0.254) (xy 8.89 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0.254) (xy 8.89 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AFBR-S4N44P014M_1_0"
+			(pin passive line
+				(at -15.24 10.16 0)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 7.62 0)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 5.08 0)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 2.54 0)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -10.16 0)
+				(length 2.54)
+				(name "ANODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AFBR-S4N44P014M_1_1"
+			(rectangle
+				(start -12.7 12.7)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.064) (xy 2.54 4.064) (xy 0 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.604) (xy 8.89 6.604) (xy 1.27 6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.064) (xy 1.27 6.604) (xy 1.27 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.064) (xy 2.54 1.524) (xy 0 1.524) (xy 1.27 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.016) (xy 1.27 1.524) (xy 1.27 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.016) (xy 0.254 -1.27) (xy 2.286 -1.778) (xy 0.254 -2.286) (xy 2.286 -2.794) (xy 0.254 -3.302)
+					(xy 2.286 -3.81) (xy 1.27 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -6.604) (xy 1.27 -4.064) (xy 1.27 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -6.604) (xy 8.89 -6.604) (xy 1.27 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 4.064) (xy 6.35 4.064) (xy 3.81 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 6.604) (xy 5.08 9.144) (xy 5.08 6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.08 6.604)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 4.064) (xy 5.08 6.604) (xy 5.08 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 4.064) (xy 6.35 1.524) (xy 3.81 1.524) (xy 5.08 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.016) (xy 5.08 1.524) (xy 5.08 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.016) (xy 4.064 -1.27) (xy 6.096 -1.778) (xy 4.064 -2.286) (xy 6.096 -2.794) (xy 4.064 -3.302)
+					(xy 6.096 -3.81) (xy 5.08 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -6.604) (xy 5.08 -4.064) (xy 5.08 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.08 -6.604)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -9.144) (xy 5.08 -6.604) (xy 5.08 -9.144)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 4.064) (xy 10.16 4.064) (xy 7.62 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 4.064) (xy 8.89 6.604) (xy 8.89 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 4.064) (xy 10.16 1.524) (xy 7.62 1.524) (xy 8.89 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -1.016) (xy 8.89 1.524) (xy 8.89 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -1.016) (xy 7.874 -1.27) (xy 9.906 -1.778) (xy 7.874 -2.286) (xy 9.906 -2.794) (xy 7.874 -3.302)
+					(xy 9.906 -3.81) (xy 8.89 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -6.604) (xy 8.89 -4.064) (xy 8.89 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AFBR-S4N66P014M"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.7 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AFBR-S4N66P014M"
+			(at 12.7 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "pkl_housings_bga:BGA-8_5x5_6.48x6.71mm"
+			(at 0 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N66P014M-NUV-MT-Silicon-Photomultiplier"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NUV-MT Silicon Photomultiplier Array"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "NUV-MT Silicon Photomultiplier Array"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AFBR-S4N66P014M_0_1"
+			(polyline
+				(pts
+					(xy 1.27 5.334) (xy 1.27 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 5.334) (xy 1.27 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.254) (xy 1.27 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.254) (xy 1.27 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.334) (xy 5.08 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.334) (xy 5.08 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0.254) (xy 5.08 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0.254) (xy 5.08 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 5.334) (xy 8.89 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 5.334) (xy 8.89 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0.254) (xy 8.89 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0.254) (xy 8.89 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AFBR-S4N66P014M_1_0"
+			(pin passive line
+				(at -15.24 10.16 0)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 7.62 0)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 5.08 0)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 2.54 0)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -2.54 0)
+				(length 2.54)
+				(name "ANODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -5.08 0)
+				(length 2.54)
+				(name "ANODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "ANODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -10.16 0)
+				(length 2.54)
+				(name "ANODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AFBR-S4N66P014M_1_1"
+			(rectangle
+				(start -12.7 12.7)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.064) (xy 2.54 4.064) (xy 0 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.604) (xy 8.89 6.604) (xy 1.27 6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.064) (xy 1.27 6.604) (xy 1.27 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.064) (xy 2.54 1.524) (xy 0 1.524) (xy 1.27 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.016) (xy 1.27 1.524) (xy 1.27 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.016) (xy 0.254 -1.27) (xy 2.286 -1.778) (xy 0.254 -2.286) (xy 2.286 -2.794) (xy 0.254 -3.302)
+					(xy 2.286 -3.81) (xy 1.27 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -6.604) (xy 1.27 -4.064) (xy 1.27 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -6.604) (xy 8.89 -6.604) (xy 1.27 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 4.064) (xy 6.35 4.064) (xy 3.81 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 6.604) (xy 5.08 9.144) (xy 5.08 6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.08 6.604)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 4.064) (xy 5.08 6.604) (xy 5.08 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 4.064) (xy 6.35 1.524) (xy 3.81 1.524) (xy 5.08 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.016) (xy 5.08 1.524) (xy 5.08 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.016) (xy 4.064 -1.27) (xy 6.096 -1.778) (xy 4.064 -2.286) (xy 6.096 -2.794) (xy 4.064 -3.302)
+					(xy 6.096 -3.81) (xy 5.08 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -6.604) (xy 5.08 -4.064) (xy 5.08 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.08 -6.604)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -9.144) (xy 5.08 -6.604) (xy 5.08 -9.144)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 4.064) (xy 10.16 4.064) (xy 7.62 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 4.064) (xy 8.89 6.604) (xy 8.89 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 4.064) (xy 10.16 1.524) (xy 7.62 1.524) (xy 8.89 4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -1.016) (xy 8.89 1.524) (xy 8.89 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -1.016) (xy 7.874 -1.27) (xy 9.906 -1.778) (xy 7.874 -2.286) (xy 9.906 -2.794) (xy 7.874 -3.302)
+					(xy 9.906 -3.81) (xy 8.89 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -6.604) (xy 8.89 -4.064) (xy 8.89 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
