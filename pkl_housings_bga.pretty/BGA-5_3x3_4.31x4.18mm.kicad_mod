@@ -1,1 +1,278 @@
-(footprint "BGA-5_3x3_4.31x4.18mm"(version 20241229) (generator "pcbnew") (generator_version "9.0")(locked yes)(layer "F.Cu" )(descr "CSP for AFBR-S4N44P014M")(property "Reference" "U11"(at 0 -2.57 0)(layer "F.SilkS" )(uuid "f3143fb3-9b72-4447-9c34-8a747a322f9b")(effects(font(size 1 1)(thickness 0.15))))(property "Value" "AFBR-S4N44P014M"(at 0 2.57 0)(layer "F.Fab" )(uuid "68d0f90f-4fc6-4de0-83b2-a606d4cf2b30")(effects(font(size 1 1)(thickness 0.15))))(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"(at 0 0 0)(layer "F.Fab" )(hide yes)(uuid "2494a274-89ec-4627-882e-3ff8103d3c71")(effects(font(size 1.27 1.27)(thickness 0.15))))(property "Description" "NUV-MT Silicon Photomultiplier Array"(at 0 0 0)(layer "F.Fab" )(hide yes)(uuid "977128f0-ee63-4e8e-ada9-e29da49d7710")(effects(font(size 1.27 1.27)(thickness 0.15))))(attr smd)(fp_line (start -2.2 2.2625) (end -2.2 1.4775)(stroke (width 0.12) (type default))(layer "F.SilkS" )(uuid "faa03d79-52f6-425c-8aa9-4e9e565ad5b3"))(fp_line (start -1.43 -2.3) (end -2.235 -1.495)(stroke (width 0.12) (type solid))(layer "F.SilkS" )(uuid "625b71d1-031a-4895-b2f0-317f4cc593ca"))(fp_line (start -1.415 2.2625) (end -2.2 2.2625)(stroke (width 0.12) (type solid))(layer "F.SilkS" )(uuid "a592a33c-d47b-4002-b4df-038caa455d08"))(fp_line (start 1.415 -2.26) (end 2.2 -2.26)(stroke (width 0.12) (type solid))(layer "F.SilkS" )(uuid "4a30fa43-c833-42b5-b502-255ae1a5fb81"))(fp_line (start 1.415 2.265) (end 2.2 2.265)(stroke (width 0.12) (type solid))(layer "F.SilkS" )(uuid "9c171142-c925-4611-a711-b54095dc0676"))(fp_line (start 2.2 -2.26) (end 2.2 -1.475)(stroke (width 0.12) (type default))(layer "F.SilkS" )(uuid "7807bc9e-af4d-48e7-b2f1-c251f50e91b0"))(fp_line (start 2.2 2.265) (end 2.2 1.48)(stroke (width 0.12) (type solid))(layer "F.SilkS" )(uuid "5924240e-361a-460d-aa0c-0807db7e9789"))(fp_circle (center -2.094117 -2.159335) (end -2.094117 -2.059335)(stroke (width 0.2) (type default))(fill no)(layer "F.SilkS" )(uuid "906a385c-91b0-4aba-9127-8a4c8b583b52"))(fp_line (start -2.32 -2.385) (end 2.32 -2.385)(stroke (width 0.05) (type solid))(layer "F.CrtYd" )(uuid "fcb72106-0816-4b8f-be31-4815724f872b"))(fp_line (start -2.32 2.385) (end -2.32 -2.385)(stroke (width 0.05) (type solid))(layer "F.CrtYd" )(uuid "642b0ff3-0253-475d-a663-d4911f747226"))(fp_line (start 2.32 -2.385) (end 2.32 2.385)(stroke (width 0.05) (type solid))(layer "F.CrtYd" )(uuid "a698f975-4144-4147-a330-80697951866f"))(fp_line (start 2.32 2.385) (end -2.32 2.385)(stroke (width 0.05) (type solid))(layer "F.CrtYd" )(uuid "3fa55434-4689-410b-a03a-7c0a97960478"))(fp_line (start -2.09 -1.485) (end -2.09 2.155)(stroke (width 0.1) (type solid))(layer "F.Fab" )(uuid "a524d191-6079-4cc1-a033-dd8ed50f4206"))(fp_line (start -2.09 2.155) (end 2.09 2.155)(stroke (width 0.1) (type solid))(layer "F.Fab" )(uuid "0663e03b-7ae3-413a-984c-cf0a8bcc1a96"))(fp_line (start -1.42 -2.155) (end -2.09 -1.485)(stroke (width 0.1) (type solid))(layer "F.Fab" )(uuid "986fc43e-4dd7-4874-b9c1-899f6e98cbdb"))(fp_line (start 2.09 -2.155) (end -1.42 -2.155)(stroke (width 0.1) (type solid))(layer "F.Fab" )(uuid "f0a3f594-1dbf-4eb2-9b0e-b5df87a9f704"))(fp_line (start 2.09 2.155) (end 2.09 -2.155)(stroke (width 0.1) (type solid))(layer "F.Fab" )(uuid "518d06ad-b001-4860-b7be-67158c8efe0a"))(fp_text user "${REFERENCE}"(at 0 0 0)(layer "F.Fab" )(uuid "eb00dfbb-4b93-4ef3-8c3f-d5de6afba5ba")(effects(font(size 1 1)(thickness 0.15))))(pad "A1" smd circle(at -1.35 -1.35 )(size 0.7 0.7)(layers  "F.Cu" "F.Mask" "F.Paste")(uuid "7b48f77b-ed6d-48ba-ba10-b51bac29cdaa"))(pad "A3" smd circle(at -1.35 1.35 )(size 0.7 0.7)(layers  "F.Cu" "F.Mask" "F.Paste")(uuid "2f540903-e392-4270-8b2a-20d3d831b4f3"))(pad "B2" smd circle(at 0 0 )(size 0.7 0.7)(layers  "F.Cu" "F.Mask" "F.Paste")(uuid "44360aca-bbb5-4be4-a516-836eb7644269"))(pad "C1" smd circle(at 1.35 -1.35 )(size 0.7 0.7)(layers  "F.Cu" "F.Mask" "F.Paste")(uuid "53035899-0f08-4bb0-ac79-14bef756d4cd"))(pad "C3" smd circle(at 1.35 1.35 )(size 0.7 0.7)(layers  "F.Cu" "F.Mask" "F.Paste")(uuid "efd64d00-0b99-41ae-bf32-565335fd1b1a"))(embedded_fonts no)(model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_housings_bga.3dshapes/Broadcom_AFBR-S4N44P014M.step"(offset (xyz 0 0 0))(scale (xyz 1 1 1))(rotate (xyz 0 0 0))))
+(footprint "BGA-5_3x3_4.31x4.18mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CSP for AFBR-S4N44P014M")
+	(property "Reference" "U11"
+		(at 0 -2.57 0)
+		(layer "F.SilkS")
+		(uuid "f3143fb3-9b72-4447-9c34-8a747a322f9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AFBR-S4N44P014M"
+		(at 0 2.57 0)
+		(layer "F.Fab")
+		(uuid "68d0f90f-4fc6-4de0-83b2-a606d4cf2b30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2494a274-89ec-4627-882e-3ff8103d3c71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "NUV-MT Silicon Photomultiplier Array"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "977128f0-ee63-4e8e-ada9-e29da49d7710")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 2.2625)
+		(end -2.2 1.4775)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "faa03d79-52f6-425c-8aa9-4e9e565ad5b3")
+	)
+	(fp_line
+		(start -1.43 -2.3)
+		(end -2.235 -1.495)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "625b71d1-031a-4895-b2f0-317f4cc593ca")
+	)
+	(fp_line
+		(start -1.415 2.2625)
+		(end -2.2 2.2625)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a592a33c-d47b-4002-b4df-038caa455d08")
+	)
+	(fp_line
+		(start 1.415 -2.26)
+		(end 2.2 -2.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a30fa43-c833-42b5-b502-255ae1a5fb81")
+	)
+	(fp_line
+		(start 1.415 2.265)
+		(end 2.2 2.265)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c171142-c925-4611-a711-b54095dc0676")
+	)
+	(fp_line
+		(start 2.2 -2.26)
+		(end 2.2 -1.475)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7807bc9e-af4d-48e7-b2f1-c251f50e91b0")
+	)
+	(fp_line
+		(start 2.2 2.265)
+		(end 2.2 1.48)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5924240e-361a-460d-aa0c-0807db7e9789")
+	)
+	(fp_circle
+		(center -2.094117 -2.159335)
+		(end -2.094117 -2.059335)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "906a385c-91b0-4aba-9127-8a4c8b583b52")
+	)
+	(fp_line
+		(start -2.32 -2.385)
+		(end 2.32 -2.385)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fcb72106-0816-4b8f-be31-4815724f872b")
+	)
+	(fp_line
+		(start -2.32 2.385)
+		(end -2.32 -2.385)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "642b0ff3-0253-475d-a663-d4911f747226")
+	)
+	(fp_line
+		(start 2.32 -2.385)
+		(end 2.32 2.385)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a698f975-4144-4147-a330-80697951866f")
+	)
+	(fp_line
+		(start 2.32 2.385)
+		(end -2.32 2.385)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fa55434-4689-410b-a03a-7c0a97960478")
+	)
+	(fp_line
+		(start -2.09 -1.485)
+		(end -2.09 2.155)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a524d191-6079-4cc1-a033-dd8ed50f4206")
+	)
+	(fp_line
+		(start -2.09 2.155)
+		(end 2.09 2.155)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0663e03b-7ae3-413a-984c-cf0a8bcc1a96")
+	)
+	(fp_line
+		(start -1.42 -2.155)
+		(end -2.09 -1.485)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "986fc43e-4dd7-4874-b9c1-899f6e98cbdb")
+	)
+	(fp_line
+		(start 2.09 -2.155)
+		(end -1.42 -2.155)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0a3f594-1dbf-4eb2-9b0e-b5df87a9f704")
+	)
+	(fp_line
+		(start 2.09 2.155)
+		(end 2.09 -2.155)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "518d06ad-b001-4860-b7be-67158c8efe0a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "eb00dfbb-4b93-4ef3-8c3f-d5de6afba5ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -1.35 -1.35)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7b48f77b-ed6d-48ba-ba10-b51bac29cdaa")
+	)
+	(pad "A3" smd circle
+		(at -1.35 1.35)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f540903-e392-4270-8b2a-20d3d831b4f3")
+	)
+	(pad "B2" smd circle
+		(at 0 0)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44360aca-bbb5-4be4-a516-836eb7644269")
+	)
+	(pad "C1" smd circle
+		(at 1.35 -1.35)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "53035899-0f08-4bb0-ac79-14bef756d4cd")
+	)
+	(pad "C3" smd circle
+		(at 1.35 1.35)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "efd64d00-0b99-41ae-bf32-565335fd1b1a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_housings_bga.3dshapes/Broadcom_AFBR-S4N44P014M.step"
+		(offset
+			(xyz 0 0 0.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
