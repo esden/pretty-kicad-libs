@@ -1,0 +1,270 @@
+(footprint "62301021021"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Würth 1.27mm pitch 10 pin SMD Socket")
+	(property "Reference" "REF**"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "db8615a0-2dc7-46f4-b74b-040cd846c85f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "62301021021"
+		(at 0 -4.5 0)
+		(layer "F.Fab")
+		(uuid "93bff381-44b1-49c0-9fe6-6f74d7ed74cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "62301021021"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81c426d5-5f35-45fc-a46e-df4540a2bf6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/62301021021.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e48e636-c8d8-4255-8be0-c08d3370b8cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee505efb-40e0-4357-b05e-4eb902898746")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.15 1.55)
+		(end -3.15 -1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f790665a-53d8-4a08-ab1f-f7ee1a8e329d")
+	)
+	(fp_line
+		(start -1.9812 1.55)
+		(end -1.8288 1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "156d1218-6385-4307-a1c8-8e6db7e6f742")
+	)
+	(fp_line
+		(start -1.8288 -1.55)
+		(end -1.9812 -1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6b1f4e9-028b-47f6-ba6c-7fdecdc1ec94")
+	)
+	(fp_line
+		(start -0.7112 1.55)
+		(end -0.5334 1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93f20eec-7f3d-4563-8885-1aeb409f3bb8")
+	)
+	(fp_line
+		(start -0.5588 -1.55)
+		(end -0.7112 -1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d48cd50-5da0-499c-abe0-750f933566c1")
+	)
+	(fp_line
+		(start 0.5588 1.55)
+		(end 0.7112 1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "345bc053-d798-4559-bfe4-ffdef8282bf2")
+	)
+	(fp_line
+		(start 0.7112 -1.55)
+		(end 0.5588 -1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afa9d93c-ea7c-4d01-9658-29fb60c1ba24")
+	)
+	(fp_line
+		(start 1.8288 1.55)
+		(end 1.9812 1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7c887b9-975f-4706-9f56-da75335a1a5b")
+	)
+	(fp_line
+		(start 1.9812 -1.55)
+		(end 1.8288 -1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36064170-09b9-41a0-b7d8-c5ad140842b0")
+	)
+	(fp_line
+		(start 3.15 1.55)
+		(end 3.15 -1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04e16498-f847-408a-9665-653d3b31bfc4")
+	)
+	(fp_poly
+		(pts
+			(xy -2.54 -2.693385) (xy -2.794 -3.074385) (xy -2.286 -3.074385)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "62190672-fe53-4f38-8aae-574e06320055")
+	)
+	(fp_rect
+		(start -3.4 -2.85)
+		(end 3.4 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4a73e687-9132-4fdd-9e87-70e37b5611ca")
+	)
+	(pad "1" smd roundrect
+		(at -2.54 -1.575 180)
+		(size 0.76 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e9178055-8aa6-4953-ba9e-08d0f4045a93")
+	)
+	(pad "2" smd roundrect
+		(at -2.54 1.575 180)
+		(size 0.76 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "08659d0b-3487-494d-9c16-9d890ee40cee")
+	)
+	(pad "3" smd roundrect
+		(at -1.27 -1.575 180)
+		(size 0.76 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ca26cbca-d373-4c61-938e-b0b247634fab")
+	)
+	(pad "4" smd roundrect
+		(at -1.27 1.575 180)
+		(size 0.76 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "dddc77f2-1ab8-461c-8c5f-b1d758717fb1")
+	)
+	(pad "5" smd roundrect
+		(at 0 -1.575 180)
+		(size 0.76 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "eae6221b-dd90-46ac-8d41-8956e85d5da6")
+	)
+	(pad "6" smd roundrect
+		(at 0 1.575 180)
+		(size 0.76 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3f8faedc-10bc-4d7a-93ff-0876874372ed")
+	)
+	(pad "7" smd roundrect
+		(at 1.27 -1.575 180)
+		(size 0.76 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9a143b2e-3ddf-4817-8bf2-0b89338870b5")
+	)
+	(pad "8" smd roundrect
+		(at 1.27 1.575 180)
+		(size 0.76 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e183c0d6-2fcd-4c7f-974b-e091212e0d31")
+	)
+	(pad "9" smd roundrect
+		(at 2.54 -1.575 180)
+		(size 0.76 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "01ef132f-add4-466c-8a87-b21be87d6a77")
+	)
+	(pad "10" smd roundrect
+		(at 2.54 1.575 180)
+		(size 0.76 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2f4bec45-714a-4c55-9285-ef45732dd901")
+	)
+	(model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_pin_headers.3dshapes/FTSH-105-01-F-DV-K.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
