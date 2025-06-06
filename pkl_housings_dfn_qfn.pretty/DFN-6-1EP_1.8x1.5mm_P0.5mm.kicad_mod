@@ -1,0 +1,226 @@
+(footprint "DFN-6-1EP_1.8x1.5mm_P0.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "6-Lead Plastic DFN (1.3mm x 1.2mm) ")
+	(tags "DFN 0.4")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(uuid "7edbfb2f-f58f-4e12-8f61-80bdfeb66536")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN-6-1EP_1.8x1.5mm_P0.5mm"
+		(at 0 1.725 0)
+		(layer "F.Fab")
+		(uuid "1b303348-3511-4003-a4ff-93836f65de0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://product.torexsemi.com/files/packages/usp-6b06-pkg.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8cbc811-6a1d-459a-9ee1-adc52b94e0ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Footprint for xc811x, MFR FP Name USP-6B06"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba6629ec-cf90-4d18-8115-02142332c944")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 -0.825)
+		(end 0.9 -0.825)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "544ac046-f1fc-494d-8427-880243842555")
+	)
+	(fp_line
+		(start -0.9 0.825)
+		(end 0.9 0.825)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a55ab8a-63b4-4a1e-8080-7196c449662a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.12 -0.8) (xy -1.4 -0.8) (xy -1.12 -1.08)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "185e68d0-cc73-45be-9bb6-d2e9f594431e")
+	)
+	(fp_rect
+		(start -1.15 -1)
+		(end 1.15 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "53dff7fb-652d-4ed3-a442-69b30774d52a")
+	)
+	(fp_line
+		(start -0.9 -0.5)
+		(end -0.9 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51e89ccd-512c-4c4c-8693-5975544f1429")
+	)
+	(fp_line
+		(start -0.9 0.75)
+		(end 0.9 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "483f6d56-bb73-4a9d-a993-8a835c4edaa9")
+	)
+	(fp_line
+		(start -0.5 -0.75)
+		(end -0.9 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85096884-6285-4956-94cd-fd809f5b1987")
+	)
+	(fp_line
+		(start 0.9 -0.75)
+		(end -0.5 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d99bd9f-7c40-4831-b60d-30feeee73795")
+	)
+	(fp_line
+		(start 0.9 0.75)
+		(end 0.9 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40c6d287-4a23-4102-b62d-5e844ecd17f8")
+	)
+	(pad "" smd roundrect
+		(at 0 -0.375)
+		(size 0.64 0.35)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1428571429)
+		(thermal_bridge_angle 45)
+		(uuid "15990774-c493-4782-b6f1-b475a191da94")
+	)
+	(pad "" smd roundrect
+		(at 0 0.375)
+		(size 0.64 0.35)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1428571429)
+		(thermal_bridge_angle 45)
+		(uuid "981695be-a3f6-4065-9a8e-4797513c886f")
+	)
+	(pad "1" smd roundrect
+		(at -0.82 -0.5)
+		(size 0.36 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "f0d1353d-c916-487e-ace2-a912446c2aeb")
+	)
+	(pad "2" smd roundrect
+		(at -0.82 0)
+		(size 0.36 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "84d06227-d596-4937-8f3e-6633fba73b38")
+	)
+	(pad "3" smd roundrect
+		(at -0.82 0.5)
+		(size 0.36 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "1bd39956-6913-4c2a-9375-6144de1ad378")
+	)
+	(pad "4" smd roundrect
+		(at 0.82 0.5)
+		(size 0.36 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "77713e16-ac65-41d6-bf57-62e07778f4a0")
+	)
+	(pad "5" smd roundrect
+		(at 0.82 0)
+		(size 0.36 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "c4478e11-bb2c-4408-9812-55fc5c6f2b47")
+	)
+	(pad "6" smd roundrect
+		(at 0.82 -0.5)
+		(size 0.36 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "53730b8d-c985-47bc-bf62-1e43f6ecae1c")
+	)
+	(pad "7" smd roundrect
+		(at 0 0)
+		(size 0.84 1.3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.119047619)
+		(thermal_bridge_angle 45)
+		(uuid "8f31a01f-7fcd-4d31-9e4c-02cde257fad2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6_1.3x1.2mm_P0.4mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
