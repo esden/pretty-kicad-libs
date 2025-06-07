@@ -52,20 +52,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "10+JTAG-10_0_1"
+		(symbol "10+JTAG-10_1_1"
 			(rectangle
 				(start -7.62 11.43)
 				(end 7.62 -13.97)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "10+JTAG-10_1_1"
 			(pin power_in line
 				(at -10.16 10.16 0)
 				(length 2.54)
@@ -479,20 +477,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAG-10_0_1"
+		(symbol "JTAG-10_1_1"
 			(rectangle
 				(start -7.62 6.35)
 				(end 7.62 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "JTAG-10_1_1"
 			(pin power_in line
 				(at -10.16 5.08 0)
 				(length 2.54)
@@ -726,20 +722,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAG-10+10aux_0_1"
+		(symbol "JTAG-10+10aux_1_1"
 			(rectangle
 				(start -7.62 11.43)
 				(end 7.62 -13.97)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "JTAG-10+10aux_1_1"
 			(pin power_in line
 				(at -10.16 10.16 0)
 				(length 2.54)
@@ -1153,20 +1147,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAG-20_0_1"
+		(symbol "JTAG-20_1_1"
 			(rectangle
 				(start -10.16 11.43)
 				(end 10.16 -13.97)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "JTAG-20_1_1"
 			(pin passive line
 				(at -12.7 10.16 0)
 				(length 2.54)
@@ -1580,20 +1572,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAG-7_0_1"
+		(symbol "JTAG-7_1_1"
 			(rectangle
 				(start -7.62 8.89)
 				(end 7.62 -8.89)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "JTAG-7_1_1"
 			(pin power_in line
 				(at -10.16 7.62 0)
 				(length 2.54)
@@ -1773,20 +1763,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAG-Cortex-Debug+ETM-20_0_1"
+		(symbol "JTAG-Cortex-Debug+ETM-20_1_1"
 			(rectangle
 				(start -15.24 8.89)
 				(end 15.24 -16.51)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "JTAG-Cortex-Debug+ETM-20_1_1"
 			(pin passive line
 				(at -17.78 7.62 0)
 				(length 2.54)
@@ -2200,20 +2188,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAG-SWD-10_0_1"
+		(symbol "JTAG-SWD-10_1_1"
 			(rectangle
 				(start -10.16 6.35)
 				(end 10.16 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "JTAG-SWD-10_1_1"
 			(pin passive line
 				(at -12.7 5.08 0)
 				(length 2.54)
@@ -2447,20 +2433,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAG-SWD-TRACE-UNI-DBG-20_0_1"
+		(symbol "JTAG-SWD-TRACE-UNI-DBG-20_1_1"
 			(rectangle
 				(start -12.7 11.43)
 				(end 12.7 -13.97)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "JTAG-SWD-TRACE-UNI-DBG-20_1_1"
 			(pin passive line
 				(at -15.24 10.16 0)
 				(length 2.54)
@@ -2874,20 +2858,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAG-SWD-TRACE-UNI-DUT-20_0_1"
+		(symbol "JTAG-SWD-TRACE-UNI-DUT-20_1_1"
 			(rectangle
 				(start -12.7 11.43)
 				(end 12.7 -13.97)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "JTAG-SWD-TRACE-UNI-DUT-20_1_1"
 			(pin passive line
 				(at -15.24 10.16 0)
 				(length 2.54)
@@ -3301,20 +3283,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAG-SWD-UNI-DBG-10_0_1"
+		(symbol "JTAG-SWD-UNI-DBG-10_1_1"
 			(rectangle
 				(start -10.16 6.35)
 				(end 10.16 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "JTAG-SWD-UNI-DBG-10_1_1"
 			(pin passive line
 				(at -12.7 5.08 0)
 				(length 2.54)
@@ -3548,20 +3528,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "JTAG-SWD-UNI-DUT-10_0_1"
+		(symbol "JTAG-SWD-UNI-DUT-10_1_1"
 			(rectangle
 				(start -10.16 6.35)
 				(end 10.16 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "JTAG-SWD-UNI-DUT-10_1_1"
 			(pin passive line
 				(at -12.7 5.08 0)
 				(length 2.54)
@@ -6748,18 +6726,6 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.27 -6.35) (xy -1.27 10.16) (xy 1.27 10.16) (xy 1.27 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center 0 8.89)
 				(radius 0.635)
@@ -6826,18 +6792,6 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 1.27 -6.35)
-				(mid 0 -7.6144)
-				(end -1.27 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center 0 -6.35)
 				(radius 0.635)
@@ -6851,6 +6805,30 @@
 			)
 		)
 		(symbol "SNES_1_1"
+			(polyline
+				(pts
+					(xy -1.27 -6.35) (xy -1.27 10.16) (xy 1.27 10.16) (xy 1.27 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 1.27 -6.35)
+				(mid 0 -7.6144)
+				(end -1.27 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at -5.08 8.89 0)
 				(length 5.08)
@@ -7494,7 +7472,7 @@
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(arc
@@ -7506,7 +7484,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(arc
@@ -7616,17 +7594,6 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 -5.842)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 -5.842) (xy 0 4.318)
@@ -7637,6 +7604,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(circle
+				(center 0 -5.842)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(rectangle
@@ -8266,20 +8244,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "USB_TYPE_C_0_1"
+		(symbol "USB_TYPE_C_1_1"
 			(rectangle
 				(start -17.78 17.78)
 				(end 16.51 -17.78)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "USB_TYPE_C_1_1"
 			(pin input line
 				(at -22.86 13.97 0)
 				(length 5.08)
@@ -8817,7 +8793,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 7.62 -2.54) (xy 7.62 -2.54) (xy 7.62 -2.54)
+					(xy 0 -2.54) (xy -1.27 -1.27) (xy -2.54 -2.54) (xy -2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -8829,7 +8805,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy -1.27 -1.27) (xy -2.54 -2.54) (xy -2.54 -2.54)
+					(xy 0 -2.54) (xy 7.62 -2.54) (xy 7.62 -2.54) (xy 7.62 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -8853,7 +8829,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					(xy 3.81 0) (xy 7.62 0) (xy 7.62 0)
 				)
 				(stroke
 					(width 0)
@@ -8865,7 +8841,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 7.62 0) (xy 7.62 0)
+					(xy 3.81 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -8899,19 +8875,19 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 7.62 -3.81)
-				(end -10.16 6.35)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "pkl_JACK_3C1S_1_1"
+			(rectangle
+				(start -10.16 6.35)
+				(end 7.62 -3.81)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at 11.43 5.08 180)
 				(length 3.81)
@@ -9738,17 +9714,6 @@
 			)
 		)
 		(symbol "pkl_RJ45-TRANSFO_0_1"
-			(rectangle
-				(start -23.495 -13.97)
-				(end 10.16 13.97)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
 				(start -22.86 12.7)
 				(mid -22.2277 12.065)
@@ -10409,6 +10374,17 @@
 			)
 		)
 		(symbol "pkl_RJ45-TRANSFO_1_1"
+			(rectangle
+				(start -23.495 13.97)
+				(end 10.16 -13.97)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -27.94 12.7 0)
 				(length 4.445)
@@ -11129,17 +11105,6 @@
 		)
 		(symbol "pkl_USB_A_0_1"
 			(rectangle
-				(start -6.35 -3.81)
-				(end 3.81 3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
 				(start -5.207 -3.81)
 				(end -4.953 -3.048)
 				(stroke
@@ -11185,6 +11150,17 @@
 			)
 		)
 		(symbol "pkl_USB_A_1_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at -5.08 -7.62 90)
 				(length 3.81)
@@ -11348,17 +11324,6 @@
 		)
 		(symbol "pkl_USB_OTG_0_1"
 			(rectangle
-				(start -6.35 -3.81)
-				(end 6.35 3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
 				(start -5.207 -3.81)
 				(end -4.953 -3.048)
 				(stroke
@@ -11415,6 +11380,17 @@
 			)
 		)
 		(symbol "pkl_USB_OTG_1_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_out line
 				(at -5.08 -7.62 90)
 				(length 3.81)
@@ -11598,19 +11574,19 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "pkl_coax_conn_1_1"
 			(circle
 				(center 0 0)
 				(radius 1.778)
 				(stroke
 					(width 0.3048)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "pkl_coax_conn_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 3.302)
