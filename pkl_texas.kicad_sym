@@ -61,21 +61,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "ADS7953SRHBT_0_1"
+		(symbol "ADS7953SRHBT_1_1"
 			(polyline
 				(pts
 					(xy -10.16 19.05) (xy 10.16 19.05) (xy 10.16 -21.59) (xy -10.16 -21.59) (xy -10.16 19.05)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "ADS7953SRHBT_1_1"
 			(pin passive line
 				(at -15.24 17.78 0)
 				(length 5.08)
@@ -977,20 +975,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "CC2650F128RSM_0_1"
+		(symbol "CC2650F128RSM_1_1"
 			(rectangle
 				(start -15.24 30.48)
 				(end 15.24 -30.48)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "CC2650F128RSM_1_1"
 			(pin bidirectional line
 				(at -20.32 27.94 0)
 				(length 5.08)
@@ -1647,20 +1643,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "HD3SS3202_0_1"
+		(symbol "HD3SS3202_1_1"
 			(rectangle
 				(start -7.62 15.24)
 				(end 7.62 -12.7)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "HD3SS3202_1_1"
 			(pin passive line
 				(at -10.16 12.7 0)
 				(length 2.54)
@@ -2597,20 +2591,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "TFP410_0_1"
+		(symbol "TFP410_1_1"
 			(rectangle
 				(start -15.24 54.61)
 				(end 15.24 -57.15)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TFP410_1_1"
 			(pin input line
 				(at -20.32 53.34 0)
 				(length 5.08)
@@ -4021,20 +4013,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "TMS320F2802xPT_0_1"
+		(symbol "TMS320F2802xPT_1_1"
 			(rectangle
 				(start -34.29 38.1)
 				(end 34.29 -38.1)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TMS320F2802xPT_1_1"
 			(pin bidirectional line
 				(at -38.1 35.56 0)
 				(length 3.81)
@@ -5514,20 +5504,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPS6107_0_1"
+		(symbol "TPS6107_1_1"
 			(rectangle
 				(start -7.62 8.89)
 				(end 7.62 -8.89)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TPS6107_1_1"
 			(pin input line
 				(at -10.16 6.35 0)
 				(length 2.54)
@@ -6499,20 +6487,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPS718XX_0_1"
+		(symbol "TPS718XX_1_1"
 			(rectangle
 				(start -7.62 3.81)
 				(end 7.62 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TPS718XX_1_1"
 			(pin power_in line
 				(at -12.7 2.54 0)
 				(length 5.08)
