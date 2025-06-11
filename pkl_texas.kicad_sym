@@ -665,7 +665,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "BQ25186"
 			(at 0 0 0)
 			(effects
 				(font
@@ -682,7 +682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25186.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -691,7 +691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1-Cell, 1A I2C Linear Battery Charger with Power Path, Ship Mode, Shutdown Mode, and Battery Tracking VINDPM"
 			(at 0 0 0)
 			(effects
 				(font
