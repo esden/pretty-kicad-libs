@@ -1,0 +1,204 @@
+(footprint "LED_POWER_1414"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Power LED 3.45 mm x 3.45 mm x 1.68 mm ")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "00b6d0a7-4f39-48df-b5c4-ef8dc5be2e25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_POWER_1414"
+		(at 0 3.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6ffe14cc-f118-483a-a18b-d3dad659b0cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/docs/80232/vlmu35cb2x-275-120.pdf"
+		(at 21.7 10.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af95ae36-dc1c-416f-b356-c01331e97093")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 21.7 10.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "029eacc6-d7f1-40cc-a480-86afc9b0110c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -1.85)
+		(end 1.85 -1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68665e8c-d3b8-4f43-9f96-2f70a2a52fbd")
+	)
+	(fp_line
+		(start -0.2 0.5)
+		(end -0.2 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c7d95322-cf3c-401f-8d1d-e8881069559d")
+	)
+	(fp_line
+		(start 1.85 -1.85)
+		(end 1.85 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "86977592-1fa8-4783-90f9-eef598cb2a07")
+	)
+	(fp_line
+		(start 1.85 0.3)
+		(end 1.85 1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "239373f3-45d7-404e-a4ae-f7ae4332f5fd")
+	)
+	(fp_line
+		(start 1.85 1.85)
+		(end -1.85 1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "065d8bc5-f897-4574-90b0-31f6fe34450a")
+	)
+	(fp_poly
+		(pts
+			(xy 0.2 0.5) (xy -0.2 0) (xy 0.2 -0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f3ca0fd2-aafc-48a7-a6ad-ba5c54aa474c")
+	)
+	(fp_rect
+		(start -2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a46839ac-879d-4af4-b648-558c998669d3")
+	)
+	(fp_line
+		(start 1.05 -1.75)
+		(end 1.05 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "493273dc-14c1-4911-a5ac-94d7efbf9b15")
+	)
+	(fp_rect
+		(start -1.75 -1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d936e1f1-dd1f-43be-944c-cb34f301242f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "938efa1a-e871-4dc7-b824-4b1afc2f7fee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.525 0)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7b6bed61-6f88-4941-98ed-1e9c7eccba1e")
+	)
+	(pad "1" smd roundrect
+		(at -0.9125 0)
+		(size 1.325 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "84450cc7-eb1e-4acb-bd52-2cf66c949e8e")
+	)
+	(pad "2" smd roundrect
+		(at 0.9125 0)
+		(size 1.325 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b4155fcd-6b0a-4d6b-a674-dd29629df7cf")
+	)
+	(pad "2" smd roundrect
+		(at 1.525 0)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "57e1114d-e993-44bf-92fe-bc272ba7d5d6")
+	)
+	(embedded_fonts no)
+	(model "/home/jboone/Documents/ShareBrained/Consulting/Geocene Virridy/tlf_hardware/lib/pkl/packages3d/pkl_leds.3dshapes/VLMU35CB20-275-120.step"
+		(offset
+			(xyz 0 0 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
