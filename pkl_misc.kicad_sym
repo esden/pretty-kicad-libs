@@ -21234,25 +21234,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -3.81 2.54 0)
-				(length 0)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -2.54 7.62 270)
 				(length 2.54)
