@@ -1,7 +1,7 @@
 (footprint "DIST-WURTH-2M5-4MM"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Wurth m2.5 thread standoff.")
 	(property "Reference" "REF**"
@@ -29,18 +29,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8b6adb05-7346-4f81-9f83-2d4b75337174")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -81,7 +69,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "9a758680-a7ef-4358-baf0-a71fdf4dc16d")
 	)
@@ -99,7 +87,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "03be3a27-7fe3-4212-b99e-b949928fc1f7")
 	)
@@ -118,7 +106,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "1fa09a2c-c1fc-48e2-b5d4-7e1f221f2da5")
 	)
@@ -136,7 +124,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "818bcbc0-f8c3-4f6a-8430-8c3fc9aa2f14")
 	)
@@ -147,7 +135,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8fa077d4-8619-47fb-8fd0-e62c6a175c73")
 	)
@@ -158,7 +146,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "db5dd995-28a4-48f7-805c-494e6db4ccef")
 	)
@@ -215,6 +203,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -233,6 +225,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${BLUES_KICAD_LIB_DIR}/3d-models/DIST-WASMSIM0250.step"
 		(offset
 			(xyz 0.00005 0.0001 0)
@@ -244,7 +237,7 @@
 			(xyz -0 -0 -180)
 		)
 	)
-	(model "/Users/esdentem/projects-private/subtidal/subtidal-hardware-new-git/lib/pkl/packages3d/pkl_misc.3dshapes/wuerth_9774040151R.step"
+	(model "${KIPRJMOD}/${PKL_REL_DIR}/packages3d/pkl_mechanical.3dshapes/wuerth_9774040151R.step"
 		(offset
 			(xyz 0 0 0)
 		)
