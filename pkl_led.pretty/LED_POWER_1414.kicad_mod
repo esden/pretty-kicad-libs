@@ -190,7 +190,7 @@
 		(uuid "57e1114d-e993-44bf-92fe-bc272ba7d5d6")
 	)
 	(embedded_fonts no)
-	(model "/home/jboone/Documents/ShareBrained/Consulting/Geocene Virridy/tlf_hardware/lib/pkl/packages3d/pkl_leds.3dshapes/VLMU35CB20-275-120.step"
+	(model "${PKL_REL_DIR}/packages3d/pkl_leds.3dshapes/VLMU35CB20-275-120.step"
 		(offset
 			(xyz 0 0 0.7)
 		)
